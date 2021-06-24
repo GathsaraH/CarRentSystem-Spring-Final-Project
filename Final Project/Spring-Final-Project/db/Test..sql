@@ -1,0 +1,1 @@
+select dr.driverNICNumber,dr.driverName,bk.bookingID,bk.rentDate,bk.returnDate,bk.custNICNumber from Drivers dr,Booking bk where dr.driverNICNumber=bk.driverNICNumber && bk.bookingStatus='Not Approved';

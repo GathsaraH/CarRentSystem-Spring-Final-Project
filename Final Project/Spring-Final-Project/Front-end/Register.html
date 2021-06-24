@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <link href="asserts/css/bootstrap-grid.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <title>Register</title>
+</head>
+<body>
+<div class="container">
+    <div class="login">
+        <div class="container">
+            <h1>Register</h1>
+            <input id="custName" placeholder="Name" type="email"><br>
+            <input id="custContact" placeholder="Contact" type="email"><br>
+            <input id="custAddress" placeholder="Address" type="email"><br>
+            <input id="custNICNumber" placeholder="NIC Number" type="email"><br>
+            <form>
+                <input class="form-control-file" id="custNICImage" name="custNICImage" type="file">
+            </form>
+            <input id="custDrivingNumber" placeholder="Driving License number " type="email"><br>
+            <form>
+                <input class="form-control-file" id="custDrivingImage" name="custDrivingImage" type="file">
+            </form>
+
+            <input id="custEmail" placeholder="Email" type="email">
+            <input id="custPassword" placeholder="Password" type="password"><br>
+            <input type="checkbox"><span>Remember me</span>
+            <a href="#">Forgot password?</a>
+            <button id="btnRegister">Register</button>
+            <button id="btnUpload">Upload Image</button>
+
+            <div class="clearfix"></div>
+
+        </div>
+    </div>
+    <div class="register">
+        <div class="container">
+            <i class="fas fa-user-plus fa-5x"></i>
+            <h2>Hello,friend!</h2>
+            <p>Enter your personal details and start journey with us</p>
+            <button id="">Register <i class="fas fa-arrow-circle-right"></i></button>
+        </div>
+    </div>
+</div>
+<script rel="script" src="asserts/js/bootstrap.min.js"></script>
+<script rel="script" src="asserts/js/jquery-3.6.0.min.js"></script>
+<script rel="script" src="script.js"></script>
+
+<script>
+    import {Alert} from "./asserts/js/bootstrap.esm";
+</script>
+
+<script>
+
+    $('#btnUpload').click(function () {
+        var fileObject = $("#custNICImage")[0].files[0];//access file object from input field
+        var fileName = $("#custNICImage")[0].files[0].name; //get file name
+
+        console.log(fileObject)
+        console.log(fileName)
+
+
+        var data = new FormData(); //setup form data object to send file data
+        data.append("file", fileObject, fileName); //append data
+
+        console.log(data)
+
+        $.ajax({
+            method: 'post',
+            url: 'http://localhost:8080/Back_end_war_exploded/customer/file',
+            async: true,
+            processData: false, //stop processing data of request body
+            contentType: false, // stop setting content type by jQuery
+            data: data,
+            success: function (response) {
+                let custNICNumber = $('#custNICNumber').val()
+                let custName = $('#custName').val()
+                let custAddress = $('#custAddress').val()
+                let custNICImage = $('#custNICImage').val()
+                let custDrivingImage = $('#custDrivingImage').val()
+                let custDrivingNumber = $('#custDrivingNumber').val()
+                let custContact = $('#custContact').val()
+                let custEmail = $('#custEmail').val()
+                let custPassword = $('#custPassword').val()
+
+                $.ajax({
+                    method: 'POST',
+                    url: "http://localhost:8080/Back_end_war_exploded/customer",
+                    contentType: "application/json",
+                    async: true,
+                    data: JSON.stringify({
+                        custNICNumber: custNICNumber,
+                        custName: custName,
+                        custAddress: custAddress,
+                        custNICImage:custNICImage,
+                        custDrivingImage: custDrivingImage,
+                        custDrivingNumber: custDrivingNumber,
+                        custContact: custContact,
+                        custEmail: custEmail,
+                        custPassword: custPassword
+                    }),
+                    success: function (date) {
+                        if (date === true) {
+                            return confirm("Your Successfully Registered");
+                        } else {
+                            return confirm("Your Registration Failed ");
+                        }
+
+                    }
+                })
+
+                return confirm("Your Successfully Registered");
+            }
+        });
+
+
+    })
+
+
+
+
+    function checkField(){
+        let custNICNumber = $('#custNICNumber').val()
+        let custName = $('#custName').val()
+        let custAddress = $('#custAddress').val()
+        let custNICImage = $('#custNICImage').val()
+        let custDrivingImage = $('#custDrivingImage').val()
+        let custDrivingNumber = $('#custDrivingNumber').val()
+        let custContact = $('#custContact').val()
+        let custEmail = $('#custEmail').val()
+        let custPassword = $('#custPassword').val()
+        console.log(custNICNumber)
+        console.log(custName)
+        console.log(custAddress)
+        console.log(custNICImage)
+        console.log(custDrivingImage)
+        console.log(custDrivingNumber)
+        console.log(custContact)
+        console.log(custEmail)
+        console.log(custPassword)
+
+    }
+
+
+
+    $('#btnRegister').click(function () {
+        let custNICNumber = $('#custNICNumber').val()
+        let custName = $('#custName').val()
+        let custAddress = $('#custAddress').val()
+        let custNICImage = $('#custNICImage').val()
+        let custDrivingImage = $('#custDrivingImage').val()
+        let custDrivingNumber = $('#custDrivingNumber').val()
+        let custContact = $('#custContact').val()
+        let custEmail = $('#custEmail').val()
+        let custPassword = $('#custPassword').val()
+
+
+        $.ajax({
+            method: 'POST',
+            url: "http://localhost:8080/Back_end_war_exploded/customer",
+            contentType: "application/json",
+            async: true,
+            data: JSON.stringify({
+                custNICNumber: custNICNumber,
+                custName: custName,
+                custAddress: custAddress,
+                custNICImage: custNICImage,
+                custDrivingImage: custDrivingImage,
+                custDrivingNumber: custDrivingNumber,
+                custContact: custContact,
+                custEmail: custEmail,
+                custPassword: custPassword
+            }),
+            success: function (date) {
+                if (date === true) {
+                    return confirm("Your Successfully Registered");
+                } else {
+                    return confirm("Your Registration Failed ");
+                }
+
+            }
+        })
+
+        return confirm("Your Successfully Registered");
+
+    })
+</script>
+</body>
+</html>

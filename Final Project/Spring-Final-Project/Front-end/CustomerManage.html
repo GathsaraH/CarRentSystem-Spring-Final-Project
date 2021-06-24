@@ -1,0 +1,1159 @@
+<!--<!doctype html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"-->
+<!--          name="viewport">-->
+<!--    <meta content="ie=edge" http-equiv="X-UA-Compatible">-->
+<!--    <link href="Admin.css" rel="stylesheet">-->
+<!--    <link href="asserts/css/bootstrap-grid.min.css" rel="stylesheet">-->
+<!--    <title>Admin Panel</title>-->
+<!--</head>-->
+<!--<body>-->
+
+
+<!--<script rel="script" src="asserts/js/bootstrap.min.js"></script>-->
+<!--<script rel="script" src="asserts/js/jquery-3.6.0.min.js"></script>-->
+<!--<script rel="script" src="Admin.js"></script>-->
+<!--</body>-->
+<!--</html>-->
+
+
+<!DOCTYPE html>
+<!--[if lt IE 7 ]>
+<html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]>
+<html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]>
+<html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en"> <!--<![endif]-->
+<head>
+    <!-- Le Basic Page Needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <title>
+
+        Dashboard &middot; Sanara Car Rent
+
+    </title>
+    <meta content="width=device-width, initial-scale=1, user-scalable=no" name="viewport">
+
+
+    <!--    &lt;!&ndash; Le Meta Data &ndash;&gt;-->
+    <!--    <meta content="Bootadmin" property="og:site_name">-->
+    <!--    <meta content="Bootadmin" property="og:title">-->
+    <!--    <meta content="website" property="og:type">-->
+    <!--    <meta content="Bootadmin is an open source bootstrap admin panel." property="og:description">-->
+    <!--    <meta content="bootstrap, admin, theme, panel, administration, material" name="keywords">-->
+
+
+    <!--    <meta content="/images/logo.png" property="og:image">-->
+    <!--    <meta content="summary" name="twitter:card">-->
+    <!--    <meta content="@iamshipon1988" name="twitter:site">-->
+    <!--    <meta content="@iamshipon1988" name="twitter:creator">-->
+
+    <!--    <meta content="Bootadmin" name="twitter:title">-->
+
+
+    <!--    <meta content="An opensource bootstrap admin panel." name="twitter:description">-->
+
+
+    <!--    &lt;!&ndash; Le App Banner Data &ndash;&gt;-->
+    <!--    <meta content="app-id=1245521413" name="apple-itunes-app">-->
+    <!--    &lt;!&ndash;<meta name="apple-itunes-app" content="app-id=1245521413, affiliate-data=myAffiliateData, app-argument=myURL">&ndash;&gt;-->
+
+    <!--    &lt;!&ndash; Le Mobile Specific Metas-->
+    <!--    ================================================== &ndash;&gt;-->
+    <!--    <meta content="width=device-width, initial-scale=1" name="viewport">-->
+
+    <!-- Le CSS
+    ================================================== -->
+    <link href="https://bootadmin.org/style/vendor/library.min.css" rel="stylesheet">
+    <link href="https://bootadmin.org/style/vendor/jqueryui-flat/jquery-ui.min.css" rel="stylesheet">
+    <link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+          integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" rel="stylesheet">
+
+
+    <link href="https://bootadmin.org/style/core/style.min.css" rel="stylesheet">
+
+    <!-- Le IE Conditionals
+    ================================================== -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le Javascript Pre-loads
+    ================================================== -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Le Page Specific Codes
+    ================================================== -->
+
+
+    <!-- Le Favicons
+    ================================================== -->
+    <link href="/images/favicon/apple-touch-icon.png" rel="apple-touch-icon" sizes="76x76">
+    <link href="/images/favicon/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+    <link href="/images/favicon/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+    <link href="/images/favicon/site.webmanifest" rel="manifest">
+    <link color="#5bbad5" href="/images/favicon/safari-pinned-tab.svg" rel="mask-icon">
+    <link href="/images/favicon/favicon.ico" rel="shortcut icon">
+    <meta content="#2d89ef" name="msapplication-TileColor">
+    <meta content="/images/favicon/browserconfig.xml" name="msapplication-config">
+    <meta content="#ffffff" name="theme-color">
+</head>
+
+<body class="sidebar-open" id="landing">
+<div class="loading">
+    <div class="loading-center"><img alt="Loading" src="https://bootadmin.org/images/loading/map.gif"/></div>
+</div>
+<div class="page-container animsition">
+    <div id="dashboardPage">
+
+
+        <!-- Main Menu -->
+        <div class="topbar">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-5 hidden-xs">
+                        <div class="logo">
+                            <a href="/">
+                                <span class="logo-emblem"><img alt="BA" src=""/></span>
+                                <span class="logo-full">Sanara Car Rent</span>
+                            </a>
+                        </div>
+                        <a class="menu-toggle wave-effect" href="#">
+                            <i class="feather icon-menu"></i>
+                        </a>
+                    </div>
+                    <div class="col-md-7 text-right">
+                        <ul>
+                            <!-- Profile Menu -->
+                            <li class="btn-group user-account">
+                                <a aria-expanded="false" aria-haspopup="true" class="btn dropdown-toggle"
+                                   data-toggle="dropdown" href="javascript:">
+                                    <div class="user-content">
+                                        <div class="user-name">Gathsara Umesh</div>
+                                    </div>
+                                    <div class="avatar">
+                                        <img alt="profile"
+                                             src="https://scontent.fcmb2-1.fna.fbcdn.net/v/t1.6435-9/128444773_2781463585447133_4164842009297063278_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=dKx8fug36ZcAX8ax47A&_nc_ht=scontent.fcmb2-1.fna&oh=329e6edc352227111268224838e07ef9&oe=60CC8826"/>
+                                    </div>
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-right">
+                                    <li><a class="animsition-link dropdown-item wave-effect" href="/account/profile"><i
+                                            class="feather icon-user"></i> Profile</a></li>
+                                    <li><a class="animsition-link dropdown-item wave-effect" href="/account/billing"><i
+                                            class="feather icon-dollar-sign"></i> Billing</a></li>
+                                    <li><a class="animsition-link dropdown-item wave-effect" href="/account/settings"><i
+                                            class="feather icon-settings"></i> Settings</a></li>
+                                    <li><a class="animsition-link dropdown-item wave-effect" href="/login"><i
+                                            class="feather icon-log-in"></i> Logout</a></li>
+                                </ul>
+                            </li>
+
+
+                            <li class="mobile-menu-toggle">
+                                <a class="menu-toggle wave-effect" href="#">
+                                    <i class="feather icon-menu"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Main Menu -->
+        <div class="sidebar">
+            <div class="logo">
+                <a href="/">
+                    <span class="logo-emblem"></span>
+                    <span class="logo-full">Sanara Car Rent</span>
+                </a>
+            </div>
+            <ul id="sidebarCookie">
+                <li class="spacer"></li>
+                <li class="profile">
+            <span class="profile-image">
+                <img alt="profile"
+                     src="https://scontent.fcmb2-1.fna.fbcdn.net/v/t1.6435-9/128444773_2781463585447133_4164842009297063278_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=dKx8fug36ZcAX8ax47A&_nc_ht=scontent.fcmb2-1.fna&oh=329e6edc352227111268224838e07ef9&oe=60CC8826"/>
+            </span>
+                    <span class="profile-name">
+                Daniel Craig
+            </span>
+                    <span class="profile-info">
+                Premium User
+            </span>
+                </li>
+                <li class="spacer"></li>
+
+                <li class="nav-item">
+                    <a aria-controls="page-dashboards" aria-expanded="false"
+                       class="nav-link wave-effect collapsed wave-effect" data-parent="#sidebarCookie"
+                       data-toggle="collapse"
+                       href="#navDashboard">
+                        <i class="feather icon-grid"></i>
+                        <span class="menu-title">Dashboard</span>
+                        <i class="feather icon-chevron-down down-arrow"></i>
+                    </a>
+                    <div class="collapse" id="navDashboard">
+                        <ul class="flex-column sub-menu">
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a aria-controls="page-layouts" aria-expanded="false" class="nav-link wave-effect collapsed"
+                       data-parent="#sidebarCookie" data-toggle="collapse" href="#navPageLayouts">
+                        <i class="feather icon-sidebar"></i>
+                        <span class="menu-title">Customer Status</span>
+                        <i class="feather icon-chevron-down down-arrow"></i>
+                    </a>
+                    <div class="collapse" id="navPageLayouts">
+                        <ul class="flex-column sub-menu">
+                            <li class="nav-item">
+                                <a class="nav-link wave-effect" href="">
+                                    <i class="feather icon-layout"></i>
+                                    <span class="menu-title">Status</span>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a aria-controls="page-elements" aria-expanded="false" class="nav-link wave-effect collapsed"
+                       data-parent="#sidebarCookie" data-toggle="collapse" href="#navElements">
+                        <i class="feather icon-layout"></i>
+                        <span class="menu-title">Drivers Status</span>
+                        <i class="feather icon-chevron-down down-arrow"></i>
+                    </a>
+                    <div class="collapse" id="navElements">
+                        <ul class="flex-column sub-menu">
+                            <li class="nav-item">
+                                <a class="nav-link wave-effect" href="">
+                                    <i class="feather icon-bold"></i>
+                                    <span class="menu-title">Status</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <a aria-controls="page-mailbox" aria-expanded="false" class="nav-link wave-effect collapsed"
+                       data-parent="#sidebarCookie" data-toggle="collapse" href="#navMailbox">
+                        <i class="feather icon-mail"></i>
+                        <span class="menu-title">Mailbox</span>
+                        <i class="feather icon-chevron-down down-arrow"></i>
+                    </a>
+                    <div class="collapse" id="navMailbox">
+                        <ul class="flex-column sub-menu">
+                            <li class="nav-item">
+                                <a class="nav-link wave-effect" href="">
+                                    <i class="feather icon-inbox"></i>
+                                    <span class="menu-title">Inbox</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link wave-effect" href="">
+                                    <i class="feather icon-mail"></i>
+                                    <span class="menu-title">Email</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link wave-effect" href="">
+                                    <i class="feather icon-send"></i>
+                                    <span class="menu-title">Compose</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link wave-effect nav-single" href="">
+                        <i class="feather icon-calendar"></i>
+                        <span class="menu-title">Calendar</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a aria-controls="page-profilebox" aria-expanded="false" class="nav-link wave-effect collapsed"
+                       data-parent="#sidebarCookie" data-toggle="collapse" href="#navProfilebox">
+                        <i class="feather icon-users"></i>
+                        <span class="menu-title">Account</span>
+                        <i class="feather icon-chevron-down down-arrow"></i>
+                    </a>
+                    <div class="collapse" id="navProfilebox">
+                        <ul class="flex-column sub-menu">
+                            <li class="nav-item">
+                                <a class="nav-link wave-effect" href="">
+                                    <i class="feather icon-user"></i>
+                                    <span class="menu-title">Profile</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link wave-effect" href="">
+                                    <i class="feather icon-dollar-sign"></i>
+                                    <span class="menu-title">Billing</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link wave-effect" href="">
+                                    <i class="feather icon-settings"></i>
+                                    <span class="menu-title">Settings</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="title">
+                    <i class="feather icon-more-horizontal"></i>
+                    <span class="menu-title">Misc</span>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link wave-effect nav-single" href="">
+                        <i class="feather icon-zap"></i>
+                        <span class="menu-title">Credits</span>
+                    </a>
+                </li>
+                <li class="spacer"></li>
+
+            </ul>
+        </div>
+
+        <main>
+            <div class="page-breadcrumb">
+                <div class="row">
+                    <div class="col-6">
+                        <h4 class="page-title">Dashboard</h4>
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="/">Home</a></li>
+                                <li aria-current="page" class="breadcrumb-item active">Dashboard</li>
+                            </ol>
+                        </nav>
+                    </div>
+                    <div class="col-6">
+                        <div class="text-right">
+                            <small>Users</small>
+                            <h5 class="text-info">3,458</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <!-- column -->
+                    <div class="col-sm-12 col-lg-4">
+                        <div class="card card-hover">
+                            <div class="card-body">
+                                <div class="d-flex">
+                                    <div class="mr-4">
+                                        <small>Wallet Balance</small>
+                                        <h4 class="mb-0">$3,567.53</h4>
+                                    </div>
+                                    <div class="chart ml-auto">
+                                        asdfadf
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- column -->
+                    <div class="col-sm-12 col-lg-4">
+                        <div class="card card-hover bg-red">
+                            <div class="card-body">
+                                <div class="d-flex">
+                                    <div class="mr-4">
+                                        <small>Wallet Balance</small>
+                                        <h4 class="mb-0">$3,567.53</h4>
+                                    </div>
+                                    <div class="chart ml-auto">
+                                        asdfadf
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- column -->
+                    <div class="col-sm-12 col-lg-4">
+                        <div class="card card-hover bg-green">
+                            <div class="card-body">
+                                <div class="d-flex">
+                                    <div class="mr-4">
+                                        <small>Wallet Balance</small>
+                                        <h4 class="mb-0">$3,567.53</h4>
+                                    </div>
+                                    <div class="chart ml-auto">
+                                        asdfadf
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <!-- title -->
+                                <div class="d-md-flex align-items-center">
+                                    <div>
+                                        <h4 class="card-title">Customer Pending List</h4>
+                                        <p class="card-subtitle">Listed By Registered Time</p>
+                                    </div>
+                                    <div class="ml-auto">
+                                        <div class="dl">
+                                            <select class="custom-select">
+                                                <option selected="" value="0">Monthly</option>
+                                                <option value="1">Daily</option>
+                                                <option value="2">Weekly</option>
+                                                <option value="3">Yearly</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- title -->
+                            </div>
+                            <div class="table-responsive">
+                                <table class="table v-middle">
+                                    <thead>
+                                    <tr class="bg-light">
+                                        <th class="border-top-0">CustomID</th>
+                                        <th class="border-top-0">Address</th>
+                                        <th class="border-top-0">Contact</th>
+                                        <th class="border-top-0">CustPhoto</th>
+                                        <th class="border-top-0">DPhoto</th>
+                                        <th class="border-top-0">DriID</th>
+                                        <th class="border-top-0">CustEmail</th>
+                                        <th class="border-top-0">Name</th>
+                                        <th class="border-top-0">Password</th>
+                                        <th class="border-top-0">Status</th>
+                                        <th class="border-top-0">Accept</th>
+                                        <th class="border-top-0">Deny</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody id="pendingTable">
+                                    <!--                                    <tr>-->
+                                    <!--                                        <td>-->
+                                    <!--                                            <div class="d-flex align-items-center">-->
+                                    <!--                                                <div class="m-r-10"><a class="btn btn-circle btn-info text-white">EA</a>-->
+                                    <!--                                                </div>-->
+                                    <!--                                                <div class="">-->
+                                    <!--                                                    <h4 class="m-b-0 font-16">Elite Admin</h4>-->
+                                    <!--                                                </div>-->
+                                    <!--                                            </div>-->
+                                    <!--                                        </td>-->
+                                    <!--                                        <td>Single Use</td>-->
+                                    <!--                                        <td>John Doe</td>-->
+                                    <!--                                        <td>-->
+                                    <!--                                            <label class="label label-danger">Angular</label>-->
+                                    <!--                                        </td>-->
+                                    <!--                                        <td>46</td>-->
+                                    <!--                                        <td>356</td>-->
+                                    <!--                                        <td>-->
+                                    <!--                                            <h5 class="m-b-0">$2850.06</h5>-->
+                                    <!--                                        </td>-->
+                                    <!--                                    </tr>-->
+                                    <!--                                    <tr>-->
+                                    <!--                                        <td>-->
+                                    <!--                                            <div class="d-flex align-items-center">-->
+                                    <!--                                                <div class="m-r-10"><a-->
+                                    <!--                                                        class="btn btn-circle btn-warning text-white">MA</a></div>-->
+                                    <!--                                                <div class="">-->
+                                    <!--                                                    <h4 class="m-b-0 font-16">Monster Admin</h4>-->
+                                    <!--                                                </div>-->
+                                    <!--                                            </div>-->
+                                    <!--                                        </td>-->
+                                    <!--                                        <td>Single Use</td>-->
+                                    <!--                                        <td>Venessa Fern</td>-->
+                                    <!--                                        <td>-->
+                                    <!--                                            <label class="label label-info">Vue Js</label>-->
+                                    <!--                                        </td>-->
+                                    <!--                                        <td>46</td>-->
+                                    <!--                                        <td>356</td>-->
+                                    <!--                                        <td>-->
+                                    <!--                                            <h5 class="m-b-0">$2850.06</h5>-->
+                                    <!--                                        </td>-->
+                                    <!--                                    </tr>-->
+                                    <!--                                    <tr>-->
+                                    <!--                                        <td>-->
+                                    <!--                                            <div class="d-flex align-items-center">-->
+                                    <!--                                                <div class="m-r-10"><a-->
+                                    <!--                                                        class="btn btn-circle btn-success text-white">MP</a></div>-->
+                                    <!--                                                <div class="">-->
+                                    <!--                                                    <h4 class="m-b-0 font-16">Material Pro Admin</h4>-->
+                                    <!--                                                </div>-->
+                                    <!--                                            </div>-->
+                                    <!--                                        </td>-->
+                                    <!--                                        <td>Single Use</td>-->
+                                    <!--                                        <td>John Doe</td>-->
+                                    <!--                                        <td>-->
+                                    <!--                                            <label class="label label-success">Bootstrap</label>-->
+                                    <!--                                        </td>-->
+                                    <!--                                        <td>46</td>-->
+                                    <!--                                        <td>356</td>-->
+                                    <!--                                        <td>-->
+                                    <!--                                            <h5 class="m-b-0">$2850.06</h5>-->
+                                    <!--                                        </td>-->
+                                    <!--                                    </tr>-->
+                                    <!--                                    <tr>-->
+                                    <!--                                        <td>-->
+                                    <!--                                            <div class="d-flex align-items-center">-->
+                                    <!--                                                <div class="m-r-10"><a-->
+                                    <!--                                                        class="btn btn-circle btn-primary text-white">AA</a></div>-->
+                                    <!--                                                <div class="">-->
+                                    <!--                                                    <h4 class="m-b-0 font-16">Ample Admin</h4>-->
+                                    <!--                                                </div>-->
+                                    <!--                                            </div>-->
+                                    <!--                                        </td>-->
+                                    <!--                                        <td>Single Use</td>-->
+                                    <!--                                        <td>John Doe</td>-->
+                                    <!--                                        <td>-->
+                                    <!--                                            <label class="label label-purple">React</label>-->
+                                    <!--                                        </td>-->
+                                    <!--                                        <td>46</td>-->
+                                    <!--                                        <td>356</td>-->
+                                    <!--                                        <td>-->
+                                    <!--                                            <h5 class="m-b-0">$2850.06</h5>-->
+                                    <!--                                        </td>-->
+                                    <!--                                    </tr>-->
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <!-- column -->
+                    <!--                    <div class="col-lg-6">-->
+                    <!--                        <div class="card card-hover">-->
+                    <!--                            <div class="card-body">-->
+                    <!--                                <h4 class="card-title">Pending Rent</h4>-->
+                    <!--                                <table class="table table-striped table-hover table-borderless table-vcenter font-size-sm">-->
+                    <!--                                    <thead>-->
+                    <!--                                    <tr class="text-uppercase">-->
+                    <!--                                        <th class="font-w700">Booking ID</th>-->
+                    <!--                                        <th class="font-w700">Customer ID</th>-->
+                    <!--                                        <th class="font-w700">Rent Date</th>-->
+                    <!--                                        <th class="d-none d-sm-table-cell font-w700">Return Date</th>-->
+                    <!--                                        <th class="font-w700">Booking Status</th>-->
+                    <!--                                        <th class="d-none d-sm-table-cell font-w700 text-right" style="width: 120px;">-->
+                    <!--                                            Price-->
+                    <!--                                        </th>-->
+                    <!--                                        <th class="font-w700 text-center" style="width: 60px;"></th>-->
+                    <!--                                    </tr>-->
+                    <!--                                    </thead>-->
+                    <!--                                    <tbody>-->
+                    <!--                                    <tr>-->
+                    <!--                                        <td>-->
+                    <!--                                            <span class="font-w600">iPhone X</span>-->
+                    <!--                                        </td>-->
+                    <!--                                        <td class="d-none d-sm-table-cell">-->
+                    <!--                                            <span class="font-size-sm text-muted">today</span>-->
+                    <!--                                        </td>-->
+                    <!--                                        <td>-->
+                    <!--                                            <span class="font-w600 text-warning">Pending..</span>-->
+                    <!--                                        </td>-->
+                    <!--                                        <td class="d-none d-sm-table-cell text-right">-->
+                    <!--                                            $999,99-->
+                    <!--                                        </td>-->
+                    <!--                                        <td class="text-center">-->
+                    <!--                                            <a class="js-tooltip-enabled" data-original-title="Manage"-->
+                    <!--                                               data-placement="left"-->
+                    <!--                                               data-toggle="tooltip" href="javascript:void(0)" title="">-->
+                    <!--                                                <i class="fa fa-fw fa-pencil-alt"></i>-->
+                    <!--                                            </a>-->
+                    <!--                                        </td>-->
+                    <!--                                    </tr>-->
+                    <!--                                    <tr>-->
+                    <!--                                        <td>-->
+                    <!--                                            <span class="font-w600">MacBook Pro 15"</span>-->
+                    <!--                                        </td>-->
+                    <!--                                        <td class="d-none d-sm-table-cell">-->
+                    <!--                                            <span class="font-size-sm text-muted">today</span>-->
+                    <!--                                        </td>-->
+                    <!--                                        <td>-->
+                    <!--                                            <span class="font-w600 text-warning">Pending..</span>-->
+                    <!--                                        </td>-->
+                    <!--                                        <td class="d-none d-sm-table-cell text-right">-->
+                    <!--                                            $2.299,00-->
+                    <!--                                        </td>-->
+                    <!--                                        <td class="text-center">-->
+                    <!--                                            <a class="js-tooltip-enabled" data-original-title="Manage"-->
+                    <!--                                               data-placement="left"-->
+                    <!--                                               data-toggle="tooltip" href="javascript:void(0)" title="">-->
+                    <!--                                                <i class="fa fa-fw fa-pencil-alt"></i>-->
+                    <!--                                            </a>-->
+                    <!--                                        </td>-->
+                    <!--                                    </tr>-->
+                    <!--                                    <tr>-->
+                    <!--                                        <td>-->
+                    <!--                                            <span class="font-w600">Nvidia GTX 1080 Ti</span>-->
+                    <!--                                        </td>-->
+                    <!--                                        <td class="d-none d-sm-table-cell">-->
+                    <!--                                            <span class="font-size-sm text-muted">today</span>-->
+                    <!--                                        </td>-->
+                    <!--                                        <td>-->
+                    <!--                                            <span class="font-w600 text-warning">Pending..</span>-->
+                    <!--                                        </td>-->
+                    <!--                                        <td class="d-none d-sm-table-cell text-right">-->
+                    <!--                                            $1200,00-->
+                    <!--                                        </td>-->
+                    <!--                                        <td class="text-center">-->
+                    <!--                                            <a class="js-tooltip-enabled" data-original-title="Manage"-->
+                    <!--                                               data-placement="left"-->
+                    <!--                                               data-toggle="tooltip" href="javascript:void(0)" title="">-->
+                    <!--                                                <i class="fa fa-fw fa-pencil-alt"></i>-->
+                    <!--                                            </a>-->
+                    <!--                                        </td>-->
+                    <!--                                    </tr>-->
+                    <!--                                    <tr>-->
+                    <!--                                        <td>-->
+                    <!--                                            <span class="font-w600">Playstation 4 Pro</span>-->
+                    <!--                                        </td>-->
+                    <!--                                        <td class="d-none d-sm-table-cell">-->
+                    <!--                                            <span class="font-size-sm text-muted">today</span>-->
+                    <!--                                        </td>-->
+                    <!--                                        <td>-->
+                    <!--                                            <span class="font-w600 text-danger">Cancelled</span>-->
+                    <!--                                        </td>-->
+                    <!--                                        <td class="d-none d-sm-table-cell text-right">-->
+                    <!--                                            $399,00-->
+                    <!--                                        </td>-->
+                    <!--                                        <td class="text-center">-->
+                    <!--                                            <a class="js-tooltip-enabled" data-original-title="Manage"-->
+                    <!--                                               data-placement="left"-->
+                    <!--                                               data-toggle="tooltip" href="javascript:void(0)" title="">-->
+                    <!--                                                <i class="fa fa-fw fa-pencil-alt"></i>-->
+                    <!--                                            </a>-->
+                    <!--                                        </td>-->
+                    <!--                                    </tr>-->
+                    <!--                                    <tr>-->
+                    <!--                                        <td>-->
+                    <!--                                            <span class="font-w600">Nintendo Switch</span>-->
+                    <!--                                        </td>-->
+                    <!--                                        <td class="d-none d-sm-table-cell">-->
+                    <!--                                            <span class="font-size-sm text-muted">yesterday</span>-->
+                    <!--                                        </td>-->
+                    <!--                                        <td>-->
+                    <!--                                            <span class="font-w600 text-success">Completed</span>-->
+                    <!--                                        </td>-->
+                    <!--                                        <td class="d-none d-sm-table-cell text-right">-->
+                    <!--                                            $349,00-->
+                    <!--                                        </td>-->
+                    <!--                                        <td class="text-center">-->
+                    <!--                                            <a class="js-tooltip-enabled" data-original-title="Manage"-->
+                    <!--                                               data-placement="left"-->
+                    <!--                                               data-toggle="tooltip" href="javascript:void(0)" title="">-->
+                    <!--                                                <i class="fa fa-fw fa-pencil-alt"></i>-->
+                    <!--                                            </a>-->
+                    <!--                                        </td>-->
+                    <!--                                    </tr>-->
+                    <!--                                    <tr>-->
+                    <!--                                        <td>-->
+                    <!--                                            <span class="font-w600">iPhone X</span>-->
+                    <!--                                        </td>-->
+                    <!--                                        <td class="d-none d-sm-table-cell">-->
+                    <!--                                            <span class="font-size-sm text-muted">yesterday</span>-->
+                    <!--                                        </td>-->
+                    <!--                                        <td>-->
+                    <!--                                            <span class="font-w600 text-success">Completed</span>-->
+                    <!--                                        </td>-->
+                    <!--                                        <td class="d-none d-sm-table-cell text-right">-->
+                    <!--                                            $999,00-->
+                    <!--                                        </td>-->
+                    <!--                                        <td class="text-center">-->
+                    <!--                                            <a class="js-tooltip-enabled" data-original-title="Manage"-->
+                    <!--                                               data-placement="left"-->
+                    <!--                                               data-toggle="tooltip" href="javascript:void(0)" title="">-->
+                    <!--                                                <i class="fa fa-fw fa-pencil-alt"></i>-->
+                    <!--                                            </a>-->
+                    <!--                                        </td>-->
+                    <!--                                    </tr>-->
+                    <!--                                    <tr>-->
+                    <!--                                        <td>-->
+                    <!--                                            <span class="font-w600">Echo Dot</span>-->
+                    <!--                                        </td>-->
+                    <!--                                        <td class="d-none d-sm-table-cell">-->
+                    <!--                                            <span class="font-size-sm text-muted">yesterday</span>-->
+                    <!--                                        </td>-->
+                    <!--                                        <td>-->
+                    <!--                                            <span class="font-w600 text-success">Completed</span>-->
+                    <!--                                        </td>-->
+                    <!--                                        <td class="d-none d-sm-table-cell text-right">-->
+                    <!--                                            $39,99-->
+                    <!--                                        </td>-->
+                    <!--                                        <td class="text-center">-->
+                    <!--                                            <a class="js-tooltip-enabled" data-original-title="Manage"-->
+                    <!--                                               data-placement="left"-->
+                    <!--                                               data-toggle="tooltip" href="javascript:void(0)" title="">-->
+                    <!--                                                <i class="fa fa-fw fa-pencil-alt"></i>-->
+                    <!--                                            </a>-->
+                    <!--                                        </td>-->
+                    <!--                                    </tr>-->
+                    <!--                                    <tr>-->
+                    <!--                                        <td>-->
+                    <!--                                            <span class="font-w600">Xbox One X</span>-->
+                    <!--                                        </td>-->
+                    <!--                                        <td class="d-none d-sm-table-cell">-->
+                    <!--                                            <span class="font-size-sm text-muted">yesterday</span>-->
+                    <!--                                        </td>-->
+                    <!--                                        <td>-->
+                    <!--                                            <span class="font-w600 text-success">Completed</span>-->
+                    <!--                                        </td>-->
+                    <!--                                        <td class="d-none d-sm-table-cell text-right">-->
+                    <!--                                            $499,00-->
+                    <!--                                        </td>-->
+                    <!--                                        <td class="text-center">-->
+                    <!--                                            <a class="js-tooltip-enabled" data-original-title="Manage"-->
+                    <!--                                               data-placement="left"-->
+                    <!--                                               data-toggle="tooltip" href="javascript:void(0)" title="">-->
+                    <!--                                                <i class="fa fa-fw fa-pencil-alt"></i>-->
+                    <!--                                            </a>-->
+                    <!--                                        </td>-->
+                    <!--                                    </tr>-->
+                    <!--                                    </tbody>-->
+                    <!--                                </table>-->
+                    <!--                            </div>-->
+                    <!--                        </div>-->
+                    <!--                    </div>-->
+                    <!-- column -->
+                    <!--                    <div class="col-lg-6">-->
+                    <!--                        <div class="card">-->
+                    <!--                            <div class="card-body">-->
+                    <!--                                <h4 class="card-title">File Tree</h4>-->
+                    <!--                                <div class="tree">-->
+                    <!--                                    <ul>-->
+                    <!--                                        <li><i class="fa fa-folder-open"></i> Project-->
+                    <!--                                            <ul>-->
+                    <!--                                                <li><i class="fa fa-folder-open"></i> Opened Folder <span>- 15kb</span>-->
+                    <!--                                                    <ul>-->
+                    <!--                                                        <li><i class="fa fa-folder-open"></i> css-->
+                    <!--                                                            <ul>-->
+                    <!--                                                                <li><i class="fa fa-code"></i> CSS Files-->
+                    <!--                                                                    <span>- 3kb</span>-->
+                    <!--                                                                </li>-->
+
+                    <!--                                                            </ul>-->
+                    <!--                                                        </li>-->
+                    <!--                                                        <li><i class="fa fa-folder"></i> Folder close-->
+                    <!--                                                            <span>- 10kb</span>-->
+                    <!--                                                        </li>-->
+                    <!--                                                        <li><i class="fab fa-html5"></i> index.html</li>-->
+                    <!--                                                        <li><i class="fa fa-picture-o"></i> favicon.ico</li>-->
+                    <!--                                                    </ul>-->
+                    <!--                                                </li>-->
+                    <!--                                                <li><i class="fa fa-folder"></i> Folder close <span>- 420kb</span>-->
+
+                    <!--                                                </li>-->
+                    <!--                                            </ul>-->
+                    <!--                                        </li>-->
+                    <!--                                    </ul>-->
+                    <!--                                </div>-->
+                    <!--                            </div>-->
+                    <!--                        </div>-->
+                    <!--                    </div>-->
+                    <!-- column -->
+                    <!--                    <div class="col-lg-6">-->
+                    <!--                        <div class="card has-shadow">-->
+                    <!--                            <div class="card-body border-top">-->
+                    <!--                                <h4 class="card-title">Stocks</h4>-->
+                    <!--                                <table class="table mb-0">-->
+                    <!--                                    <tbody>-->
+                    <!--                                    <tr>-->
+                    <!--                                        <td>APPL</td>-->
+                    <!--                                        <td>$ 9,500</td>-->
+                    <!--                                        <td class="color-green">+ 458</td>-->
+                    <!--                                    </tr>-->
+                    <!--                                    <tr>-->
+                    <!--                                        <td>GOOG</td>-->
+                    <!--                                        <td>$ 15,425</td>-->
+                    <!--                                        <td class="color-red">- 1,632</td>-->
+                    <!--                                    </tr>-->
+                    <!--                                    <tr>-->
+                    <!--                                        <td>AMD</td>-->
+                    <!--                                        <td>$ 11,540</td>-->
+                    <!--                                        <td class="color-green">+ 8,326</td>-->
+                    <!--                                    </tr>-->
+                    <!--                                    <tr>-->
+                    <!--                                        <td>HGM</td>-->
+                    <!--                                        <td>$ 15,855</td>-->
+                    <!--                                        <td class="color-green">+ 11,326</td>-->
+                    <!--                                    </tr>-->
+                    <!--                                    <tr>-->
+                    <!--                                        <td>MKR</td>-->
+                    <!--                                        <td>$ 18,500</td>-->
+                    <!--                                        <td class="color-red">- 6,586</td>-->
+                    <!--                                    </tr>-->
+                    <!--                                    <tr>-->
+                    <!--                                        <td>APPL</td>-->
+                    <!--                                        <td>$ 9,500</td>-->
+                    <!--                                        <td class="color-green">+ 458</td>-->
+                    <!--                                    </tr>-->
+                    <!--                                    <tr>-->
+                    <!--                                        <td>GOOG</td>-->
+                    <!--                                        <td>$ 15,425</td>-->
+                    <!--                                        <td class="color-red">- 1,632</td>-->
+                    <!--                                    </tr>-->
+                    <!--                                    <tr>-->
+                    <!--                                        <td>AMD</td>-->
+                    <!--                                        <td>$ 11,540</td>-->
+                    <!--                                        <td class="color-green">+ 8,326</td>-->
+                    <!--                                    </tr>-->
+                    <!--                                    <tr>-->
+                    <!--                                        <td>HGM</td>-->
+                    <!--                                        <td>$ 15,855</td>-->
+                    <!--                                        <td class="color-green">+ 11,326</td>-->
+                    <!--                                    </tr>-->
+                    <!--                                    <tr>-->
+                    <!--                                        <td>MKR</td>-->
+                    <!--                                        <td>$ 18,500</td>-->
+                    <!--                                        <td class="color-red">- 6,586</td>-->
+                    <!--                                    </tr>-->
+                    <!--                                    </tbody>-->
+                    <!--                                </table>-->
+                    <!--                            </div>-->
+                    <!--                        </div>-->
+                    <!--                    </div>-->
+
+
+                    <!-- column -->
+                    <!--                    <div class="col-lg-6">-->
+                    <!--                        <div class="card">-->
+                    <!--                            <div class="card-body">-->
+                    <!--                                <h4 class="card-title">Recent Comments</h4>-->
+                    <!--                                <table class="table">-->
+                    <!--                                    <thead>-->
+                    <!--                                    <tr>-->
+                    <!--                                        <th>Image</th>-->
+                    <!--                                        <th>Product</th>-->
+                    <!--                                        <th>Customer</th>-->
+                    <!--                                        <th>Purchased On</th>-->
+                    <!--                                        <th>Status</th>-->
+                    <!--                                        <th>Tracking No#</th>-->
+                    <!--                                    </tr>-->
+                    <!--                                    </thead>-->
+                    <!--                                    <tbody>-->
+                    <!--                                    <tr>-->
+                    <!--                                        <td>-->
+                    <!--                                            <img alt="iMac"-->
+                    <!--                                                 src="https://bootadmin.org/images/icons/lulu/Desktop.png"-->
+                    <!--                                                 style="width:50px">-->
+                    <!--                                        </td>-->
+                    <!--                                        <td>iMac</td>-->
+                    <!--                                        <td>Russell</td>-->
+                    <!--                                        <td>22/08/2018</td>-->
+                    <!--                                        <td>-->
+                    <!--                                            <span class="badge badge-success font-weight-100">Paid</span>-->
+                    <!--                                        </td>-->
+                    <!--                                        <td>#98BC85SD84</td>-->
+                    <!--                                    </tr>-->
+                    <!--                                    <tr>-->
+                    <!--                                        <td>-->
+                    <!--                                            <img alt="iPhone"-->
+                    <!--                                                 src="https://bootadmin.org/images/icons/lulu/Mobile.png"-->
+                    <!--                                                 style="width:50px">-->
+                    <!--                                        </td>-->
+                    <!--                                        <td>iPhone</td>-->
+                    <!--                                        <td>Carol</td>-->
+                    <!--                                        <td>15/07/2018</td>-->
+                    <!--                                        <td>-->
+                    <!--                                            <span class="badge badge-warning font-weight-100">Pending</span>-->
+                    <!--                                        </td>-->
+                    <!--                                        <td>#98SA3C9SC</td>-->
+                    <!--                                    </tr>-->
+                    <!--                                    <tr>-->
+                    <!--                                        <td>-->
+                    <!--                                            <img alt="apple_watch"-->
+                    <!--                                                 src="https://bootadmin.org/images/icons/lulu/Clock.png"-->
+                    <!--                                                 style="width:50px">-->
+                    <!--                                        </td>-->
+                    <!--                                        <td>Apple Watch</td>-->
+                    <!--                                        <td>Austin Pena</td>-->
+                    <!--                                        <td>10/07/2018</td>-->
+                    <!--                                        <td>-->
+                    <!--                                            <span class="badge badge-success font-weight-100">Paid</span>-->
+                    <!--                                        </td>-->
+                    <!--                                        <td>#98BC85SD84</td>-->
+                    <!--                                    </tr>-->
+                    <!--                                    <tr>-->
+                    <!--                                        <td>-->
+                    <!--                                            <img alt="mac_mouse"-->
+                    <!--                                                 src="https://bootadmin.org/images/icons/lulu/Headphones.png"-->
+                    <!--                                                 style="width:50px">-->
+                    <!--                                        </td>-->
+                    <!--                                        <td>Headphones</td>-->
+                    <!--                                        <td>Randy</td>-->
+                    <!--                                        <td>22/04/2018</td>-->
+                    <!--                                        <td>-->
+                    <!--                                            <span class="badge badge-default font-weight-100">Failed</span>-->
+                    <!--                                        </td>-->
+                    <!--                                        <td>#98SA3C9SC</td>-->
+                    <!--                                    </tr>-->
+                    <!--                                    </tbody>-->
+                    <!--                                </table>-->
+                    <!--                            </div>-->
+                    <!--                        </div>-->
+                    <!--                    </div>-->
+                </div>
+            </div>
+
+
+            <!-- Footer -->
+            <footer>
+                <!--                <input id="bookingID" style="" type="text">-->
+
+
+                <label for="custNICNumber" style="display:none ">
+                    <input id="custNICNumber" style="" type="text">
+                </label>
+                <label for="custName" style="display:none">
+                    <input id="custName" style="" type="text">
+                </label>
+                <label for="custAddress" style="display:none">
+                    <input id="custAddress" style="" type="text">
+                </label>
+                <label for="custNICImage" style="display:none">
+                    <input id="custNICImage" style="" type="text">
+                </label>
+                <label for="custDrivingImage" style="display:none">
+                    <input id="custDrivingImage" style="" type="text">
+                </label>
+
+                <label for="custDrivingNumber" style="display:none">
+                    <input id="custDrivingNumber" style="" type="text">
+                </label>
+                <label for="custContact" style="display:none">
+                    <input id="custContact" style="" type="text">
+                </label>
+                <label for="custEmail" style="display:none">
+                    <input id="custEmail" style="" type="text">
+                </label>
+                <label for="custPassword" style="display:none">
+                    <input id="custPassword" style="" type="text">
+                </label>
+
+
+                <p>&copy; Gathsara Umesh. All Rights Reserved. <br/>
+            </footer>
+
+        </main>
+    </div>
+
+</div>
+
+
+<!-- Le Javascript -->
+<script crossorigin="anonymous"
+        integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E="
+        src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
+<script crossorigin="anonymous"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://bootadmin.org/scripts/vendor/bootstrap.min.js"></script>
+<script src="https://bootadmin.org/scripts/vendor/library.min.js"></script>
+
+
+<script src="https://bootadmin.org/scripts/core/main.js"></script>
+
+<script>
+
+    $(document).ready(function () {
+        $.ajax({
+            method: 'GET',
+            url: 'http://localhost:8080/Back_end_war_exploded/customer',
+            async: true,
+            success: function (response) {
+                console.log(response)
+                let myArray = response.data;
+
+
+                for (let i of myArray) {
+                    let img = 'http://localhost:8080/Back_end_war_exploded/customer' + i.custNICImage;
+                    let imf=''
+                    let row = `<tr><td>${i.custNICNumber}</td><td>${i.custAddress}</td><td>${i.custContact}</td>>${i}<td></td<td>${i}</td><td>${i.custDrivingNumber}</td><td>${i.custEmail}</td><td>${i.custName}</td><td>${i.custPassword}</td><td style="color: darkred;font-weight: bold">${i.custStatus}</td><td><button  class="btn btn-success fff" id="${i.bookingID}"   onclick="updateDetailsCar(this)">Accept</button></td><td><button  class="btn btn-danger fff" id="btnApprow" onclick="">Reject</button></td></tr>`;
+                    $("#pendingTable").append(row);
+                }
+            }
+        })
+    })
+    // <img style="width:50px" src="${img}" alt="CustImage">
+
+    function updateDetailsCar() {
+        const result = confirm("Want to Accept?");
+        if (result) {
+
+            $('#pendingTable>tr').click(function () {
+                let custNICNumber = $(this).children('td:eq(0)').text();
+                let custAddress = $(this).children('td:eq(1)').text();
+                let custContact = $(this).children('td:eq(2)').text();
+                let custNICImage = $(this).children('td:eq(3)').text();
+                let custDrivingImage = $(this).children('td:eq(4)').text();
+                let custDrivingNumber = $(this).children('td:eq(5)').text();
+                let custEmail = $(this).children('td:eq(6)').text();
+                let custName = $(this).children('td:eq(7)').text();
+                let custPassword = $(this).children('td:eq(8)').text();
+
+                $('#custNICNumber').val(custNICNumber)
+                $('#custAddress').val(custAddress)
+                $('#custContact').val(custContact)
+                $('#custNICImage').val(custNICImage)
+                $('#custDrivingImage').val(custDrivingImage)
+                $('#custDrivingNumber').val(custDrivingNumber)
+                $('#custEmail').val(custEmail)
+                $('#custName').val(custName)
+                $('#custPassword').val(custPassword)
+
+
+                let custNICNumbe = $('#custNICNumber').val()
+                let custAddres = $('#custAddress').val()
+                let custContac = $('#custContact').val()
+                let custNICImag = $('#custNICImage').val()
+                let custDrivingImag = $('#custDrivingImage').val()
+                let custDrivingNumbe = $('#custDrivingNumber').val()
+                let custEmai = $('#custEmail').val()
+                let custNam = $('#custName').val()
+                let custPasswor = $('#custPassword').val()
+
+                console.log(custNICNumbe)
+                console.log(custAddres)
+                console.log(custContac)
+                console.log(custNICImag)
+                console.log(custDrivingImag)
+                console.log(custDrivingNumbe)
+                console.log(custNICNumbe)
+                console.log(custEmai)
+                console.log(custNam)
+                console.log(custPasswor)
+
+
+                $.ajax({
+                    url: "http://localhost:8080/Back_end_war_exploded/customer",
+                    method: "PUT",
+                    async: true,
+                    contentType: "application/json",
+                    data: JSON.stringify({
+                        custNICNumber: custNICNumbe,
+                        custName: custNam,
+                        custAddress: custAddres,
+                        custNICImage: custNICImag,
+                        custDrivingImage: custDrivingImag,
+                        custDrivingNumber: custDrivingNumbe,
+                        custContact: custContac,
+                        custEmail: custEmai,
+                        custPassword: custPasswor,
+                        custStatus: "Approved"
+                    }),
+                    success: function (date) {
+                        console.log(date)
+                    }
+                })
+
+
+            })
+
+
+        }
+    }
+
+
+    $('#idCheck').click(function () {
+        console.log("Test")
+        $.ajax({
+            url: 'http://localhost:8080/Back_end_war_exploded/booking',
+            method: "PUT",
+            async: true,
+            contentType: "application/json",
+            dataType: "json",
+            // data: JSON.stringify({
+            //     bookingID: "B0010",
+            //     rentDate: "1623695400000",
+            //     returnDate: "1624732200000",
+            //     bookingStatus: "Approved",
+            //     custNICNumber: {},
+            //     driverNICNumber: {},
+            //
+            // }),
+
+            data: JSON.stringify({
+                bookingID: "B0010",
+                rentDate: "1623695400000",
+                returnDate: "1624732200000",
+                bookingStatus: "Approved",
+                rentStatus: "aaa",
+                custNICNumber: {
+                    "custNICNumber": "HFJFKG"
+                },
+                driverNICNumber: {
+                    "driverNICNumber": "DHDRH"
+                },
+                bookingDetails: [
+                    {
+                        "bookingDetailsID": 12,
+                        "lossDamage": 1234.00,
+                        "lossDamageImage": "sdgdf",
+                        "bookingID": {
+                            "bookingID": "B0010"
+                        },
+                        "vehicleRegID": {
+                            "vehicleRegID": "VRfgdf"
+                        }
+                    }
+                ]
+            }),
+            success: function (date) {
+                console.log(date)
+            }
+        })
+    })
+
+
+    function checkID() {
+        let bookingID = $('#txtBookingID').val()
+        let custNICNumber = $("#custNICNumber").val()
+        let rentDate = $("#rentDate").val()
+        let returnDate = $("#returnDate").val()
+        let driverNICNumber = $("#driverNICNumber").val()
+
+        console.log(bookingID)
+        console.log(custNICNumber)
+        console.log(rentDate)
+        console.log(returnDate)
+        console.log(driverNICNumber)
+
+
+    }
+
+
+    function setDataField() {
+        $('#pendingTable>tr').click(function () {
+            let bookingID = $(this).children('td:eq(0)').text();
+            let custNICNumber = $(this).children('td:eq(1)').text();
+            let rentDate = $(this).children('td:eq(2)').text();
+            let returnDate = $(this).children('td:eq(3)').text();
+            let driverNICNumber = $(this).children('td:eq(4)').text();
+            $("#txtBookingID").val(bookingID)
+            $("#custNICNumber").val(custNICNumber)
+            $("#rentDate").val(rentDate)
+            $("#returnDate").val(returnDate)
+            $("#driverNICNumber").val(driverNICNumber)
+        })
+    }
+
+
+    $("#btnAccept").click(function () {
+        console.log("Clicked")
+        setDataField()
+    })
+
+
+</script>
+</body>
+</html>

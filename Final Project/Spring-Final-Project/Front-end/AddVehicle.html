@@ -1,0 +1,777 @@
+<!--<!doctype html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"-->
+<!--          name="viewport">-->
+<!--    <meta content="ie=edge" http-equiv="X-UA-Compatible">-->
+<!--    <link href="Admin.css" rel="stylesheet">-->
+<!--    <link href="asserts/css/bootstrap-grid.min.css" rel="stylesheet">-->
+<!--    <title>Admin Panel</title>-->
+<!--</head>-->
+<!--<body>-->
+
+
+<!--<script rel="script" src="asserts/js/bootstrap.min.js"></script>-->
+<!--<script rel="script" src="asserts/js/jquery-3.6.0.min.js"></script>-->
+<!--<script rel="script" src="Admin.js"></script>-->
+<!--</body>-->
+<!--</html>-->
+
+
+<!DOCTYPE html>
+<!--[if lt IE 7 ]>
+<html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]>
+<html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]>
+<html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en"> <!--<![endif]-->
+<head>
+    <!-- Le Basic Page Needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <title>
+
+        Dashboard &middot; Sanara Car Rent
+
+    </title>
+    <meta content="width=device-width, initial-scale=1, user-scalable=no" name="viewport">
+
+
+    <!-- Le Meta Data -->
+    <meta content="Bootadmin" property="og:site_name">
+    <meta content="Bootadmin" property="og:title">
+    <meta content="website" property="og:type">
+    <meta content="Bootadmin is an open source bootstrap admin panel." property="og:description">
+    <meta content="bootstrap, admin, theme, panel, administration, material" name="keywords">
+
+
+    <meta content="/images/logo.png" property="og:image">
+    <meta content="summary" name="twitter:card">
+    <meta content="@iamshipon1988" name="twitter:site">
+    <meta content="@iamshipon1988" name="twitter:creator">
+
+    <meta content="Bootadmin" name="twitter:title">
+
+
+    <meta content="An opensource bootstrap admin panel." name="twitter:description">
+
+
+    <!-- Le App Banner Data -->
+    <meta content="app-id=1245521413" name="apple-itunes-app">
+    <!--<meta name="apple-itunes-app" content="app-id=1245521413, affiliate-data=myAffiliateData, app-argument=myURL">-->
+
+    <!-- Le Mobile Specific Metas
+    ================================================== -->
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+
+    <!-- Le CSS
+    ================================================== -->
+    <link href="https://bootadmin.org/style/vendor/library.min.css" rel="stylesheet">
+    <link href="https://bootadmin.org/style/vendor/jqueryui-flat/jquery-ui.min.css" rel="stylesheet">
+    <link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+          integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" rel="stylesheet">
+
+    <link href="Vehicle.css" rel="stylesheet">
+
+
+    <link href="https://bootadmin.org/style/core/style.min.css" rel="stylesheet">
+
+    <!-- Le IE Conditionals
+    ================================================== -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le Javascript Pre-loads
+    ================================================== -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Le Page Specific Codes
+    ================================================== -->
+
+
+    <!-- Le Favicons
+    ================================================== -->
+    <link href="/images/favicon/apple-touch-icon.png" rel="apple-touch-icon" sizes="76x76">
+    <link href="/images/favicon/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+    <link href="/images/favicon/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+    <link href="/images/favicon/site.webmanifest" rel="manifest">
+    <link color="#5bbad5" href="/images/favicon/safari-pinned-tab.svg" rel="mask-icon">
+    <link href="/images/favicon/favicon.ico" rel="shortcut icon">
+    <meta content="#2d89ef" name="msapplication-TileColor">
+    <meta content="/images/favicon/browserconfig.xml" name="msapplication-config">
+    <meta content="#ffffff" name="theme-color">
+</head>
+
+<body class="sidebar-open" id="landing">
+<div class="loading">
+    <div class="loading-center"><img alt="Loading" src="https://bootadmin.org/images/loading/map.gif"/></div>
+</div>
+<div class="page-container animsition">
+    <div id="dashboardPage">
+
+
+        <!-- Main Menu -->
+        <div class="topbar">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-5 hidden-xs">
+                        <div class="logo">
+                            <a href="/">
+                                <span class="logo-emblem"><img alt="BA" src=""/></span>
+                                <span class="logo-full">Sanara Car Rent</span>
+                            </a>
+                        </div>
+                        <a class="menu-toggle wave-effect" href="#">
+                            <i class="feather icon-menu"></i>
+                        </a>
+                    </div>
+                    <div class="col-md-7 text-right">
+                        <ul>
+                            <!-- Profile Menu -->
+                            <li class="btn-group user-account">
+                                <a aria-expanded="false" aria-haspopup="true" class="btn dropdown-toggle"
+                                   data-toggle="dropdown" href="javascript:">
+                                    <div class="user-content">
+                                        <div class="user-name">Gathsara Umesh</div>
+                                    </div>
+                                    <div class="avatar">
+                                        <img alt="profile"
+                                             src="https://scontent.fcmb2-1.fna.fbcdn.net/v/t1.6435-9/128444773_2781463585447133_4164842009297063278_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=dKx8fug36ZcAX8ax47A&_nc_ht=scontent.fcmb2-1.fna&oh=329e6edc352227111268224838e07ef9&oe=60CC8826"/>
+                                    </div>
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-right">
+                                    <li><a class="animsition-link dropdown-item wave-effect" href="/account/profile"><i
+                                            class="feather icon-user"></i> Profile</a></li>
+                                    <li><a class="animsition-link dropdown-item wave-effect" href="/account/billing"><i
+                                            class="feather icon-dollar-sign"></i> Billing</a></li>
+                                    <li><a class="animsition-link dropdown-item wave-effect" href="/account/settings"><i
+                                            class="feather icon-settings"></i> Settings</a></li>
+                                    <li><a class="animsition-link dropdown-item wave-effect" href="/login"><i
+                                            class="feather icon-log-in"></i> Logout</a></li>
+                                </ul>
+                            </li>
+
+
+                            <li class="mobile-menu-toggle">
+                                <a class="menu-toggle wave-effect" href="#">
+                                    <i class="feather icon-menu"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Main Menu -->
+        <div class="sidebar">
+            <div class="logo">
+                <a href="/">
+                    <span class="logo-emblem"></span>
+                    <span class="logo-full">Sanara Car Rent</span>
+                </a>
+            </div>
+            <ul id="sidebarCookie">
+                <li class="spacer"></li>
+                <li class="profile">
+            <span class="profile-image">
+                <img alt="profile"
+                     src="https://scontent.fcmb2-1.fna.fbcdn.net/v/t1.6435-9/128444773_2781463585447133_4164842009297063278_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=dKx8fug36ZcAX8ax47A&_nc_ht=scontent.fcmb2-1.fna&oh=329e6edc352227111268224838e07ef9&oe=60CC8826"/>
+            </span>
+                    <span class="profile-name">
+                Daniel Craig
+            </span>
+                    <span class="profile-info">
+                Premium User
+            </span>
+                </li>
+                <li class="spacer"></li>
+
+                <li class="nav-item">
+                    <a aria-controls="page-dashboards" aria-expanded="false"
+                       class="nav-link wave-effect collapsed wave-effect" data-parent="#sidebarCookie"
+                       data-toggle="collapse"
+                       href="#navDashboard">
+                        <i class="feather icon-grid"></i>
+                        <span class="menu-title">Dashboard</span>
+                        <i class="feather icon-chevron-down down-arrow"></i>
+                    </a>
+                    <div class="collapse" id="navDashboard">
+                        <ul class="flex-column sub-menu">
+                            <li class="nav-item">
+                                <a class="nav-link wave-effect" href="http://bootadmin.org/">
+                                    <i class="feather icon-layout"></i>
+                                    <span class="menu-title">Dashboard</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link wave-effect" href="http://bootadmin.org/">
+                                    <i class="feather icon-shopping-bag"></i>
+                                    <span class="menu-title">eCommerce</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link js-darkSidebar wave-effect" href="javascript: void();">
+                                    <i class="feather icon-shopping-bag"></i>
+                                    <span class="menu-title">Toggle Sidebar Color</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a aria-controls="page-layouts" aria-expanded="false" class="nav-link wave-effect collapsed"
+                       data-parent="#sidebarCookie" data-toggle="collapse" href="#navPageLayouts">
+                        <i class="feather icon-sidebar"></i>
+                        <span class="menu-title">Customer Status</span>
+                        <i class="feather icon-chevron-down down-arrow"></i>
+                    </a>
+                    <div class="collapse" id="navPageLayouts">
+                        <ul class="flex-column sub-menu">
+                            <li class="nav-item">
+                                <a class="nav-link wave-effect" href="http://bootadmin.org/">
+                                    <i class="feather icon-layout"></i>
+                                    <span class="menu-title">Status</span>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a aria-controls="page-elements" aria-expanded="false" class="nav-link wave-effect collapsed"
+                       data-parent="#sidebarCookie" data-toggle="collapse" href="#navElements">
+                        <i class="feather icon-layout"></i>
+                        <span class="menu-title">Drivers Status</span>
+                        <i class="feather icon-chevron-down down-arrow"></i>
+                    </a>
+                    <div class="collapse" id="navElements">
+                        <ul class="flex-column sub-menu">
+                            <li class="nav-item">
+                                <a class="nav-link wave-effect" href="http://bootadmin.org/elements/bootstrap">
+                                    <i class="feather icon-bold"></i>
+                                    <span class="menu-title">Status</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <a aria-controls="page-mailbox" aria-expanded="false" class="nav-link wave-effect collapsed"
+                       data-parent="#sidebarCookie" data-toggle="collapse" href="#navMailbox">
+                        <i class="feather icon-mail"></i>
+                        <span class="menu-title">Mailbox</span>
+                        <i class="feather icon-chevron-down down-arrow"></i>
+                    </a>
+                    <div class="collapse" id="navMailbox">
+                        <ul class="flex-column sub-menu">
+                            <li class="nav-item">
+                                <a class="nav-link wave-effect" href="http://bootadmin.org/app/inbox">
+                                    <i class="feather icon-inbox"></i>
+                                    <span class="menu-title">Inbox</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link wave-effect" href="http://bootadmin.org/app/inbox/email">
+                                    <i class="feather icon-mail"></i>
+                                    <span class="menu-title">Email</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link wave-effect" href="http://bootadmin.org/app/inbox/compose">
+                                    <i class="feather icon-send"></i>
+                                    <span class="menu-title">Compose</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link wave-effect nav-single" href="http://bootadmin.org/app/calendar">
+                        <i class="feather icon-calendar"></i>
+                        <span class="menu-title">Calendar</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a aria-controls="page-profilebox" aria-expanded="false" class="nav-link wave-effect collapsed"
+                       data-parent="#sidebarCookie" data-toggle="collapse" href="#navProfilebox">
+                        <i class="feather icon-users"></i>
+                        <span class="menu-title">Account</span>
+                        <i class="feather icon-chevron-down down-arrow"></i>
+                    </a>
+                    <div class="collapse" id="navProfilebox">
+                        <ul class="flex-column sub-menu">
+                            <li class="nav-item">
+                                <a class="nav-link wave-effect" href="http://bootadmin.org/account/profile">
+                                    <i class="feather icon-user"></i>
+                                    <span class="menu-title">Profile</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link wave-effect" href="http://bootadmin.org/account/billing">
+                                    <i class="feather icon-dollar-sign"></i>
+                                    <span class="menu-title">Billing</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link wave-effect" href="http://bootadmin.org/account/settings">
+                                    <i class="feather icon-settings"></i>
+                                    <span class="menu-title">Settings</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="title">
+                    <i class="feather icon-more-horizontal"></i>
+                    <span class="menu-title">Misc</span>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link wave-effect nav-single" href="http://bootadmin.org/credits">
+                        <i class="feather icon-zap"></i>
+                        <span class="menu-title">Credits</span>
+                    </a>
+                </li>
+                <li class="spacer"></li>
+                <li class="button-container">
+                    <a class="btn btn-primary display-block" href="https://github.com/iamshipon1988/bootadmin"><i
+                            class="feather icon-download"></i> Download on Github</a>
+                </li>
+            </ul>
+        </div>
+
+        <main>
+            <div class="page-breadcrumb">
+                <div class="row">
+                    <div class="col-6">
+                        <h4 class="page-title">Dashboard</h4>
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="/">Home</a></li>
+                                <li aria-current="page" class="breadcrumb-item active">Dashboard</li>
+                            </ol>
+                        </nav>
+                    </div>
+                    <div class="col-6">
+                        <div class="text-right">
+                            <small>Users</small>
+                            <h5 class="text-info">3,458</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <!-- column -->
+                    <div class="col-sm-12 col-lg-4">
+                        <div class="card card-hover">
+                            <div class="card-body">
+                                <div class="d-flex">
+                                    <div class="mr-4">
+                                        <small>Wallet Balance</small>
+                                        <h4 class="mb-0">$3,567.53</h4>
+                                    </div>
+                                    <div class="chart ml-auto">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- column -->
+                    <div class="col-sm-12 col-lg-4">
+                        <div class="card card-hover bg-red">
+                            <div class="card-body">
+                                <div class="d-flex">
+                                    <div class="mr-4">
+                                        <small>Wallet Balance</small>
+                                        <h4 class="mb-0">$3,567.53</h4>
+                                    </div>
+                                    <div class="chart ml-auto">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- column -->
+                    <div class="col-sm-12 col-lg-4">
+                        <div class="card card-hover bg-green">
+                            <div class="card-body">
+                                <div class="d-flex">
+                                    <div class="mr-4">
+                                        <small>Wallet Balance</small>
+                                        <h4 class="mb-0">$3,567.53</h4>
+                                    </div>
+                                    <div class="chart ml-auto">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <!-- column -->
+                    <div class="col-lg-6">
+                        <div class="card card-hover">
+                            <div class="card-body">
+                                <h4 class="card-title" style="color: #0c63e4">Add Vehicle</h4>
+
+                                <div class="mb-3">
+                                    <label class="form-label" for="txtVehicleID">Vehicle ID</label>
+                                    <input class="form-control" id="txtVehicleID" placeholder="Vehicle ID" type="text">
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label" for="txtVehicleBrand">Vehicle Brand</label>
+                                    <input class="form-control" id="txtVehicleBrand" placeholder="Vehicle Brand"
+                                           type="text">
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label" for="txtVehicleSubBrand">Vehicle Sub Brand</label>
+                                    <input class="form-control" id="txtVehicleSubBrand" placeholder="Vehicle Sub Brand"
+                                           type="text">
+                                </div>
+
+                                <div class="mb-3">
+                                    <label class="form-label" for="txtvehicleType">vehicle Type</label>
+                                    <input class="form-control" id="txtvehicleType"
+                                           placeholder="vehicle Type"
+                                           type="text">
+                                </div>
+
+                                <div class="mb-3">
+                                    <label class="form-label" for="txtVehicleFontImage">Vehicle Font Image</label>
+                                    <input class="form-control" id="txtVehicleFontImage" placeholder="Vehicle Sub Brand"
+                                           type="file">
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label" for="txtVehicleBackImage">Vehicle Back Image</label>
+                                    <input class="form-control" id="txtVehicleBackImage" placeholder="Vehicle Sub Brand"
+                                           type="file">
+                                </div>
+
+                                <div class="mb-3">
+                                    <label class="form-label" for="txtVehicleDailyRate">vehicle Daily Rate </label>
+                                    <input class="form-control" id="txtVehicleDailyRate"
+                                           placeholder="vehicle Daily Rate"
+                                           type="text">
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label" for="txtVehicleMonthlyRate">vehicle Monthly Rate </label>
+                                    <input class="form-control" id="txtVehicleMonthlyRate"
+                                           placeholder="vehicle Monthly Rate "
+                                           type="text">
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label" for="txtvehicleExtraKmPrice">vehicle ExtraKm
+                                        Price </label>
+                                    <input class="form-control" id="txtvehicleExtraKmPrice"
+                                           placeholder="vehicle ExtraKm Price"
+                                           type="text">
+                                </div>
+
+                                <div class="mb-3">
+                                    <label class="form-label" for="txtVehicleLostDamage">vehicle Lost Damage</label>
+                                    <input class="form-control" id="txtVehicleLostDamage"
+                                           placeholder="vehicle ExtraKm Price"
+                                           type="text">
+                                </div>
+
+                                <div class="mb-3">
+                                    <label class="form-label" for="txtVehicleFreeKmForDay">Free Km For Day</label>
+                                    <input class="form-control" id="txtVehicleFreeKmForDay"
+                                           placeholder="vehicle ExtraKm Price"
+                                           type="text">
+                                </div>
+
+                                <div class="mb-3">
+                                    <label class="form-label" for="txtVehicleFreeKmForMonth">Free Km For Month</label>
+                                    <input class="form-control" id="txtVehicleFreeKmForMonth"
+                                           placeholder="vehicle ExtraKm Price"
+                                           type="text">
+                                </div>
+
+
+                                <button class="btn btn-success add-cart" id="btnSaveVehicle" type="button">Add Vehicle
+                                </button>
+                                <button class="btn btn-danger add-cart" id="btnDelete" type="button">Delete Vehicle
+                                </button>
+                                <button class="btn btn-danger add-cart" id="btnSearch" type="button"> Vehicle
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- column -->
+                    <div class="col-lg-6">
+                        <div class="card  card-hover">
+                            <div class="card-body">
+                                <h4 class="card-title" style="color: #0d6efd">Choose Your Vehicle</h4>
+                                <table class="table">
+                                    <thead>
+                                    <tr>
+                                        <th>Vehicle</th>
+                                        <th>VehicleNo:</th>
+                                        <th>Brand</th>
+                                        <th>DailyRate</th>
+                                        <th>MonthlyRate</th>
+                                        <th>vehicleType</th>
+                                        <th>ExtraKmPrice</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody id="vehicleTBody">
+                                    <!--                                    <tr>-->
+                                    <!--                                        <td>-->
+                                    <!--                                            <img alt="iMac"-->
+                                    <!--                                                 src="https://bootadmin.org/images/icons/lulu/Desktop.png"-->
+                                    <!--                                                 style="width:50px">-->
+                                    <!--                                        </td>-->
+                                    <!--                                        <td>iMac</td>-->
+                                    <!--                                        <td>Russell</td>-->
+                                    <!--                                        <td>22/08/2018</td>-->
+                                    <!--                                        <td>-->
+                                    <!--                                            <span class="badge badge-success font-weight-100">Paid</span>-->
+                                    <!--                                        </td>-->
+                                    <!--                                        <td>#98BC85SD84</td>-->
+                                    <!--                                    </tr>-->
+                                    <!--                                    <tr>-->
+                                    <!--                                        <td>-->
+                                    <!--                                            <img alt="iPhone"-->
+                                    <!--                                                 src="https://bootadmin.org/images/icons/lulu/Mobile.png"-->
+                                    <!--                                                 style="width:50px">-->
+                                    <!--                                        </td>-->
+                                    <!--                                        <td>iPhone</td>-->
+                                    <!--                                        <td>Carol</td>-->
+                                    <!--                                        <td>15/07/2018</td>-->
+                                    <!--                                        <td>-->
+                                    <!--                                            <span class="badge badge-warning font-weight-100">Pending</span>-->
+                                    <!--                                        </td>-->
+                                    <!--                                        <td>#98SA3C9SC</td>-->
+                                    <!--                                    </tr>-->
+                                    <!--                                    <tr>-->
+                                    <!--                                        <td>-->
+                                    <!--                                            <img alt="apple_watch"-->
+                                    <!--                                                 src="https://bootadmin.org/images/icons/lulu/Clock.png"-->
+                                    <!--                                                 style="width:50px">-->
+                                    <!--                                        </td>-->
+                                    <!--                                        <td>Apple Watch</td>-->
+                                    <!--                                        <td>Austin Pena</td>-->
+                                    <!--                                        <td>10/07/2018</td>-->
+                                    <!--                                        <td>-->
+                                    <!--                                            <span class="badge badge-success font-weight-100">Paid</span>-->
+                                    <!--                                        </td>-->
+                                    <!--                                        <td>#98BC85SD84</td>-->
+                                    <!--                                    </tr>-->
+                                    <!--                                    <tr>-->
+                                    <!--                                        <td>-->
+                                    <!--                                            <img alt="mac_mouse"-->
+                                    <!--                                                 src="https://bootadmin.org/images/icons/lulu/Headphones.png"-->
+                                    <!--                                                 style="width:50px">-->
+                                    <!--                                        </td>-->
+                                    <!--                                        <td>Headphones</td>-->
+                                    <!--                                        <td>Randy</td>-->
+                                    <!--                                        <td>22/04/2018</td>-->
+                                    <!--                                        <td>-->
+                                    <!--                                            <span class="badge badge-default font-weight-100">Failed</span>-->
+                                    <!--                                        </td>-->
+                                    <!--                                        <td>#98SA3C9SC</td>-->
+                                    <!--                                    </tr>-->
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+            <!-- Footer -->
+            <footer>
+                <p>&copy; Gathsara Umesh. All Rights Reserved/a>.</p>
+            </footer>
+
+        </main>
+    </div>
+
+</div>
+
+
+<!-- Le Javascript -->
+<script crossorigin="anonymous"
+        integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E="
+        src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
+<script crossorigin="anonymous"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://bootadmin.org/scripts/vendor/bootstrap.min.js"></script>
+<script src="https://bootadmin.org/scripts/vendor/library.min.js"></script>
+
+
+<script src="https://bootadmin.org/scripts/core/main.js"></script>
+
+<script>
+
+    // (function (i, s, o, g, r, a, m) {
+    //     i['GoogleAnalyticsObject'] = r;
+    //     i[r] = i[r] || function () {
+    //         (i[r].q = i[r].q || []).push(arguments)
+    //     }, i[r].l = 1 * new Date();
+    //     a = s.createElement(o),
+    //         m = s.getElementsByTagName(o)[0];
+    //     a.async = 1;
+    //     a.src = g;
+    //     m.parentNode.insertBefore(a, m)
+    // })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    // ga('create', 'UA-104952515-1', 'auto');
+    // ga('send', 'pageview');
+
+
+    // $(document).ready(function () {
+    //
+    //     LoadData();
+    //     // $("#vehicleTBody").empty();
+    //     // $.ajax({
+    //     //     method: 'GET',
+    //     //     url: 'http://localhost:8080/Back_end_war_exploded/vehicle',
+    //     //     async: true,
+    //     //     success: function (response) {
+    //     //         console.log(response);//object
+    //     //         let array = response.data;
+    //     //         for (let i of array) {
+    //     //             let row = `<tr><td>${i.vehicleSubBrand}</td><td>${i.vehicleRegID}</td><td>${i.vehicleSubBrand}</td><td>${i.vehicleDailyRate}</td><td>${i.vehicleMonthlyRate}</td><td>${i.vehicleFreeMiles}</td><td>${i.vehicleExtraKmPrice}</td></tr>`;
+    //     //             $("#vehicleTBody").append(row);
+    //     //         }
+    //     //
+    //     //     }
+    //     // });
+    //
+    // });
+
+    function LoadData() {
+        $("#vehicleTBody").empty();
+        $.ajax({
+            method: 'GET',
+            url: 'http://localhost:8080/Back_end_war_exploded/vehicle',
+            async: true,
+            success: function (response) {
+                console.log(response);//object
+                let array = response.data;
+                for (let i of array) {
+                    let row = `<tr><td>${i.vehicleSubBrand}</td><td>${i.vehicleRegID}</td><td>${i.vehicleSubBrand}</td><td>${i.vehicleDailyRate}</td><td>${i.vehicleMonthlyRate}</td><td>${i.vehicleType}</td><td>${i.vehicleExtraKmPrice}</td></tr>`;
+                    $("#vehicleTBody").append(row);
+                }
+
+            }
+        });
+    }
+
+
+    $("#btnSaveVehicle").click(function () {
+
+
+        let vehicleRegID = $("#txtVehicleID").val();
+        let vehicleMainBrand = $('#txtVehicleBrand').val();
+        let vehicleSubBrand = $('#txtVehicleSubBrand').val();
+        let vehicleType = $('#txtvehicleType').val();
+        let vehicleFontImage=$('#txtVehicleFontImage').val()
+        let vehicleBackImage=$('#txtVehicleBackImage').val()
+
+        let vehicleDailyRate = $('#txtVehicleDailyRate').val();
+        let vehicleMonthlyRate = $('#txtVehicleMonthlyRate').val();
+        let vehicleExtraKmPrice = $('#txtvehicleExtraKmPrice').val();
+
+        let vehicleLostDamage=$('#txtVehicleLostDamage').val();
+        let vehicleFreeKMDay=$('#txtVehicleFreeKmForDay').val();
+        let vehicleFreeKMMONTH=$('#txtVehicleFreeKmForMonth').val()
+
+
+        $.ajax({
+            method: "POST",
+            url: "http://localhost:8080/Back_end_war_exploded/vehicle",
+            contentType: "application/json",
+            async: true,
+            data: JSON.stringify({
+                vehicleRegID: vehicleRegID,
+                vehicleMainBrand: vehicleMainBrand,
+                vehicleSubBrand: vehicleSubBrand,
+                vehicleType: vehicleType,
+                vehicleFontImage:vehicleFontImage,
+                vehicleBackImage:vehicleBackImage,
+                vehicleDailyRate: vehicleDailyRate,
+                vehicleMonthlyRate: vehicleMonthlyRate,
+                vehicleExtraKmPrice: vehicleExtraKmPrice,
+                vehicleStatus:"Free",
+                vehicleLostDamage:vehicleLostDamage,
+                vehicleFreeKMDay:vehicleFreeKMDay,
+                vehicleFreeKMMONTH:vehicleFreeKMMONTH
+            }),
+            success: function (date) {
+                console.log("" + date)
+            }
+        })
+
+
+        addData();
+
+    })
+
+
+    $('#vehicleTBody').click(function (){
+        //Load Table Data To Text Field C - Click Twice On Table
+        addData();
+    })
+
+
+    $(document).ready(function (){
+        LoadData();
+        addData();
+    })
+
+
+
+
+
+    function addData() {
+        $('#vehicleTBody>tr').click(function () {
+
+            let vehicleRegID = $(this).children('td:eq(0)').text();
+            let vehicleMainBrand = $(this).children('td:eq(1)').text();
+            let vehicleSubBrand = $(this).children('td:eq(2)').text();
+            let vehicleType = $(this).children('td:eq(3)').text();
+            let vehicleDailyRate = $(this).children('td:eq(4)').text();
+            let vehicleMonthlyRate = $(this).children('td:eq(5)').text();
+            let vehicleFreeMiles = $(this).children('td:eq(6)').text();
+            let vehicleExtraKmPrice = $(this).children('td:eq(7)').text();
+
+            console.log("TEST CLICKED")
+
+            $("#txtVehicleID").val(vehicleRegID);
+            $('#txtVehicleBrand').val(vehicleMainBrand);
+            $('#txtVehicleSubBrand').val(vehicleSubBrand);
+            $('#txtvehicleType').val(vehicleType);
+            $('#txtVehicleDailyRate').val(vehicleDailyRate);
+            $('#txtVehicleMonthlyRate').val(vehicleMonthlyRate);
+            $('#txtvehicleFreeMiles').val(vehicleFreeMiles);
+            $('#txtvehicleExtraKmPrice').val(vehicleExtraKmPrice);
+
+        });
+    }
+
+
+
+</script>
+
+<!--    <script rel="script" src="asserts/js/jquery-3.6.0.min.js"></script>-->
+</body>
+</html>

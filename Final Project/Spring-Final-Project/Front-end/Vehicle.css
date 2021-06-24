@@ -1,0 +1,47 @@
+input[type="file"], input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: none;
+    background-color: #eeeeef;
+}
+
+input[type="text"], input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: none;
+    background-color: #eeeeef;
+}
+
+.driver-select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: none;
+    background-color: #eeeeef;
+}
+
+input[type="checkbox"] {
+    float: left;
+    margin-right: 5px;
+}
+
+
+.add-cart {
+    align-content: center;
+    text-align: center;
+    position: relative;
+    border-radius: 20px;
+    width: 150px;
+    margin-left: 50px;
+}
+
+#btnPlaceBooking{
+    align-content: center;
+    text-align: center;
+    position: relative;
+    border-radius: 20px;
+    width: 160px;
+    margin-left: 126px;
+}

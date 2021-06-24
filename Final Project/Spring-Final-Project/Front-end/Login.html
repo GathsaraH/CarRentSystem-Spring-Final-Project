@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <link href="asserts/css/bootstrap-grid.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <title>Sanara Car Rent</title>
+</head>
+<body>
+<div class="container">
+    <div class="login">
+        <div class="container">
+            <h1>Log in</h1>
+            <input id="txtCustomerEmail" placeholder="Email" type="email">
+            <input id="txtCustomerPassowrd" placeholder="Password" type="password"><br>
+            <input type="checkbox"><span>Remember me</span>
+            <a href="#">Forgot password?</a>
+            <button id="btnLogin">log in</button>
+            <hr>
+            <p>Or Connect With</p>
+            <hr>
+            <ul>
+                <li><i class="fab fa-facebook-f fa-2x"></i></li>
+                <li><i class="fab fa-twitter fa-2x"></i></li>
+                <li><i class="fab fa-github fa-2x"></i></li>
+                <li><i class="fab fa-linkedin-in fa-2x"></i></li>
+            </ul>
+            <div class="clearfix"></div>
+            <span class="copyright">&copy;2021</span>
+        </div>
+    </div>
+    <div class="register">
+        <div class="container">
+            <i class="fas fa-user-plus fa-5x"></i>
+            <h2>Hello,friend!</h2>
+            <p>Enter your personal details and start journey with us</p>
+            <button id="txtHomeRegister">Register <i class="fas fa-arrow-circle-right"></i></button>
+        </div>
+    </div>
+</div>
+<script rel="script" src="asserts/js/bootstrap.min.js"></script>
+<script rel="script" src="asserts/js/jquery-3.6.0.min.js"></script>
+<script rel="script" src="script.js"></script>
+
+<script>
+
+
+    $('#btnLogin').click(function () {
+        let custEmail = $('#txtCustomerEmail').val()
+        let custPass = $('#txtCustomerPassowrd').val()
+
+        $.ajax({
+            method: "GET",
+            url: 'http://localhost:8080/Back_end_war_exploded/login/' + custEmail ,
+            async: true,
+            success: function (response) {
+                console.log(response)
+            }
+        })
+
+    })
+
+
+</script>
+</body>
+</html>

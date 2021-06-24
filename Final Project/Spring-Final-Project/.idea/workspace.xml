@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Back-end:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ef20c5cc-c4b6-479e-a23b-d8338c22bd4e" name="Default Changelist" comment="Back-end 60 %">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_mail_javax_mail_api_1_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_mail_mail_1_4_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_3_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/controller/BookingDetailsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/controller/CustomerMessageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/controller/EmailController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/controller/ReturnController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/dto/BookingAccreptDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/dto/CustomDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/dto/CustomerMessageDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/dto/ReturnBookingDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/dto/VehicleIDDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/entity/CustomEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/entity/CustomerMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/entity/DriverSchedule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/entity/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/entity/VehicleSchedule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/repo/CustomerMessageRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/repo/DriverSheduleRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/repo/LoginRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/repo/PaymentRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/repo/VehicleScheduleRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/service/BookingDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/service/CustomerMessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/service/LoginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/service/MailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/service/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/service/impl/BookingDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/service/impl/CustomerMessageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/service/impl/LoginServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/service/impl/MailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/service/impl/PaymentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/AdminStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/CustomerManage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/ReturnBooking.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/ReturnBooking.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/asserts/img/av1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Back_end_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Back_end_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/063ed3bd-54b9-4aba-9b49-b7a12263bc37.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/063ed3bd-54b9-4aba-9b49-b7a12263bc37/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/063ed3bd-54b9-4aba-9b49-b7a12263bc37/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/063ed3bd-54b9-4aba-9b49-b7a12263bc37/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/063ed3bd-54b9-4aba-9b49-b7a12263bc37/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_3_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_3_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/Back-end.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/Back-end.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/config/JPAConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/config/JPAConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/config/WebAppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/config/WebAppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/config/WebAppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/config/WebAppInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/config/WebRootConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/config/WebRootConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/controller/BookingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/controller/BookingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/controller/DriverController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/controller/DriverController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/controller/VehicleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/controller/VehicleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/dto/BookingDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/dto/BookingDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/dto/BookingDetailsDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/dto/BookingDetailsDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/dto/CustomerDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/dto/CustomerDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/dto/VehicleDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/dto/VehicleDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/entity/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/entity/Booking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/entity/BookingDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/entity/BookingDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/entity/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/entity/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/entity/Drivers.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/entity/Drivers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/entity/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/entity/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/repo/BookingDetailsRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/repo/BookingDetailsRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/repo/BookingRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/repo/BookingRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/repo/CustomerRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/repo/CustomerRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/repo/DriverRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/repo/DriverRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/repo/VehicleRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/repo/VehicleRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/service/BookingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/service/BookingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/service/DriverService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/service/DriverService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/service/VehicleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/service/VehicleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/service/impl/BookingServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/service/impl/BookingServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/service/impl/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/service/impl/CustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/service/impl/DriverServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/service/impl/DriverServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/service/impl/VehicleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/service/impl/VehicleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/config/JPAConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/config/JPAConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/config/WebAppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/config/WebAppConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/config/WebAppInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/config/WebAppInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/config/WebRootConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/config/WebRootConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/controller/BookingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/controller/BookingController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/controller/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/controller/CustomerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/controller/DriverController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/controller/DriverController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/controller/VehicleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/controller/VehicleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/dto/BookingDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/dto/BookingDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/dto/BookingDetailsDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/dto/BookingDetailsDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/dto/CustomerDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/dto/CustomerDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/dto/VehicleDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/dto/VehicleDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/entity/Booking.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/entity/Booking.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/entity/BookingDetails.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/entity/BookingDetails.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/entity/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/entity/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/entity/Drivers.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/entity/Drivers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/entity/Vehicle.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/entity/Vehicle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/repo/BookingDetailsRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/repo/BookingDetailsRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/repo/BookingRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/repo/BookingRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/repo/CustomerRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/repo/CustomerRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/repo/DriverRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/repo/DriverRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/repo/VehicleRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/repo/VehicleRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/service/BookingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/service/BookingService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/service/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/service/CustomerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/service/DriverService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/service/DriverService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/service/VehicleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/service/VehicleService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/service/impl/BookingServiceImpl$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/service/impl/BookingServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/service/impl/BookingServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/service/impl/CustomerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/service/impl/CustomerServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/service/impl/DriverServiceImpl$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/service/impl/DriverServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/service/impl/DriverServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/service/impl/VehicleServiceImpl$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/service/impl/VehicleServiceImpl$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/service/impl/VehicleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/service/impl/VehicleServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/lib/spring-context-5.3.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/config/JPAConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/config/JPAConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/config/WebAppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/config/WebAppConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/config/WebAppInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/config/WebAppInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/config/WebRootConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/config/WebRootConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/controller/BookingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/controller/BookingController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/controller/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/controller/CustomerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/controller/DriverController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/controller/DriverController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/controller/VehicleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/controller/VehicleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/dto/BookingDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/dto/BookingDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/dto/BookingDetailsDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/dto/BookingDetailsDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/dto/CustomerDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/dto/CustomerDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/dto/VehicleDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/dto/VehicleDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/entity/Booking.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/entity/Booking.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/entity/BookingDetails.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/entity/BookingDetails.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/entity/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/entity/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/entity/Drivers.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/entity/Drivers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/entity/Vehicle.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/entity/Vehicle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/repo/BookingDetailsRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/repo/BookingDetailsRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/repo/BookingRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/repo/BookingRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/repo/CustomerRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/repo/CustomerRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/repo/DriverRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/repo/DriverRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/repo/VehicleRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/repo/VehicleRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/service/BookingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/service/BookingService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/service/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/service/CustomerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/service/DriverService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/service/DriverService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/service/VehicleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/service/VehicleService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/service/impl/BookingServiceImpl$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/service/impl/BookingServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/service/impl/BookingServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/service/impl/CustomerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/service/impl/CustomerServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/service/impl/DriverServiceImpl$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/service/impl/DriverServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/service/impl/DriverServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/service/impl/VehicleServiceImpl$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/service/impl/VehicleServiceImpl$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/service/impl/VehicleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/service/impl/VehicleServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-end/AddVehicle.html" beforeDir="false" afterPath="$PROJECT_DIR$/Front-end/AddVehicle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-end/Admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/Front-end/Admin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-end/Login.html" beforeDir="false" afterPath="$PROJECT_DIR$/Front-end/Login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-end/Register.html" beforeDir="false" afterPath="$PROJECT_DIR$/Front-end/Register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-end/User.html" beforeDir="false" afterPath="$PROJECT_DIR$/Front-end/User.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-end/Vehicle.css" beforeDir="false" afterPath="$PROJECT_DIR$/Front-end/Vehicle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-end/index2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-end/model/Vehicle.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front-end/model/Vehicle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-end/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Front-end/style.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Aspect" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1tpPfs4oBChmfivsx1TvpQw46lE" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mariadb&#10;mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="js.last.introduce.type" value="LET" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Front-end" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.12820514" />
+    <property name="project.structure.side.proportion" value="0.14565004" />
+    <property name="service.view.auto.scroll.to.source" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\My Project\Maven(Spring)\Final Project Test\Final Project\Spring-Final-Project\Front-end" />
+      <recent name="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring" />
+      <recent name="$PROJECT_DIR$/Back-end/src/main/resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Front-end" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zenixo.spring.util" />
+      <recent name="com.zenixo.spring.advisor" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.66">
+    <configuration name="EmailController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zenixo.spring.controller.EmailController" />
+      <module name="Back-end" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zenixo.spring.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.5.66" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.66" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/Back_end_war_exploded/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Back-end:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Back_end_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="4bfdf9d3-7209-4d9d-9638-e7e0b4c5685a" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="13323" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Back-end:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.EmailController" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ef20c5cc-c4b6-479e-a23b-d8338c22bd4e" name="Default Changelist" comment="" />
+      <created>1623463163858</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623463163858</updated>
+      <workItem from="1623463165221" duration="72000" />
+      <workItem from="1623529011816" duration="17893000" />
+      <workItem from="1623583981188" duration="12981000" />
+      <workItem from="1623599033627" duration="13187000" />
+      <workItem from="1623613947369" duration="5068000" />
+      <workItem from="1623619031247" duration="876000" />
+      <workItem from="1623620173474" duration="28218000" />
+      <workItem from="1623833328143" duration="299000" />
+      <workItem from="1623833658792" duration="22140000" />
+      <workItem from="1623884324632" duration="3000" />
+      <workItem from="1623884416313" duration="2000" />
+      <workItem from="1623884428980" duration="3000" />
+      <workItem from="1623884442167" duration="52000" />
+      <workItem from="1623948098798" duration="22182000" />
+      <workItem from="1623974359338" duration="3000" />
+      <workItem from="1623974709568" duration="659000" />
+      <workItem from="1624005079626" duration="1066000" />
+      <workItem from="1624008499932" duration="16368000" />
+      <workItem from="1624027691883" duration="7767000" />
+      <workItem from="1624047270429" duration="9849000" />
+      <workItem from="1624057154505" duration="29000" />
+      <workItem from="1624112825261" duration="846000" />
+      <workItem from="1624114370559" duration="9000" />
+      <workItem from="1624126679252" duration="454000" />
+      <workItem from="1624127163992" duration="11721000" />
+      <workItem from="1624139084610" duration="7333000" />
+      <workItem from="1624156672302" duration="104000" />
+      <workItem from="1624172984900" duration="29987000" />
+      <workItem from="1624205077529" duration="5835000" />
+      <workItem from="1624211390598" duration="891000" />
+      <workItem from="1624212477630" duration="31161000" />
+      <workItem from="1624296230187" duration="10312000" />
+      <workItem from="1624308599978" duration="8674000" />
+      <workItem from="1624323001220" duration="13859000" />
+      <workItem from="1624362256454" duration="23597000" />
+      <workItem from="1624413156504" duration="14396000" />
+      <workItem from="1624433626169" duration="5672000" />
+      <workItem from="1624439513734" duration="61205000" />
+    </task>
+    <task id="LOCAL-00001" summary="Back-end 60 %">
+      <created>1624156698177</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1624156698177</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Back-end 60 %" />
+    <option name="LAST_COMMIT_MESSAGE" value="Back-end 60 %" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

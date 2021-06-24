@@ -1,0 +1,41 @@
+update vehicle set vehicleStatus='OnUse' where vehicleRegID='V001,V003';
+
+update vehicle set vehicleStatus='OnUse' where vehicleRegID='V002';
+
+select * from bookingdetails
+
+
+     {
+     "driverNICNumber":"Driver Not Assign",
+     "driverName":"None",
+     "driverNICImage":"None",
+     "driverDrivingLyImage":"None",
+     "driverDrivingLyNumber":"None",
+     "driverContact":"None,
+     "driverEmail":"None",
+     "driverPassword":"1None"
+    }
+
+
+
+     {
+     "driverNICNumber":"D003",
+     "driverName":"Ruwan",
+     "driverNICImage":"NIC Image",
+     "driverDrivingLyImage":"Driver Image",
+     "driverDrivingLyNumber":"2558652659",
+     "driverContact":"07165822821",
+     "driverEmail":"Driver@gmail.com",
+     "driverPassword":"12345"
+    }
+
+
+select custEmail,custPassword from customer where custEmail="umeshgathsara@gmail.com" && custPassword="1234";
+
+select custEmail,custPassword from customer where custEmail="umeshgathsara@gmail.com"
+
+select b.bookingID,b.bookingStatus,b.rentDate,b.returnDate,b.custNICNumber,b.rentStatus,rd.driverNICNumber,rd.vehicleRegID 
+from  booking b,bookingdetails rd where (b.bookingID=rd.bookingID) and b.bookingStatus='Not Approved';
+
+
+select b.bookingID,b.rentDate,b.returnDate,b.custNICNumber,rd.lossDamage,rd.driverNICNumber,  rd.vehicleRegID from booking b,bookingdetails rd where (b.bookingID=rd.bookingID) and b.bookingStatus="Rejected" && rd.vehicleRegID="V001";

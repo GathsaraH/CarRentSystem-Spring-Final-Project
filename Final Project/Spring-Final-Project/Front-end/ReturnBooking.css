@@ -1,0 +1,34 @@
+input[type="file"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: none;
+    background-color: #eeeeef;
+}
+
+input[type="email"], input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: none;
+    background-color: #eeeeef;
+}
+
+
+
+
+#txtHomeRegister {
+    position: relative;
+}
+
+
+#checkLostD {
+    position: relative;
+    margin-left: 6.5em;
+    /* margin-bottom: -6em; */
+    bottom: -25px;
+}
+
+#btnReturnOrder {
+
+}

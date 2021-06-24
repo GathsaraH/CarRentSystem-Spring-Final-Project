@@ -1,0 +1,53 @@
+    {
+      "bookingID": "B005",
+      "rentDate": "2021-06-15",
+      "returnDate": "2021-06-27",
+      "bookingStatus": "",
+      "rentStatus": "",
+      "custNICNumber": {
+        "custNICNumber": "C001",
+    
+      },
+      "driverNICNumber": {
+        "driverNICNumber": "D001",
+    
+      },
+      "bookingDetails": [{
+          "bookingDetailsID": "",
+          "lossDamage": 12000.00,
+          "lossDamageImage": "lossDamageImage",
+          "bookingID": {
+            "bookingID": "B005",
+    
+          },
+          "driverNICNumber": {
+            "driverNICNumber": "D001",
+    
+          }
+        },
+        "vehicleRegID": {
+          "vehicleRegID": "V001",
+    
+        }
+      },
+    
+      {
+        "bookingDetailsID": "",
+        "lossDamage": 12000.00,
+        "lossDamageImage": "lossDamageImage",
+        "bookingID": {
+          "bookingID": "B005",
+    
+        },
+        "driverNICNumber": {
+          "driverNICNumber": "D001",
+    
+        }
+      },
+      "vehicleRegID": {
+        "vehicleRegID": "V001",
+    
+      }
+    }
+    ]
+    }

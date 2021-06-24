@@ -1,0 +1,816 @@
+<!--<!doctype html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"-->
+<!--          name="viewport">-->
+<!--    <meta content="ie=edge" http-equiv="X-UA-Compatible">-->
+<!--    <link href="Admin.css" rel="stylesheet">-->
+<!--    <link href="asserts/css/bootstrap-grid.min.css" rel="stylesheet">-->
+<!--    <title>Admin Panel</title>-->
+<!--</head>-->
+<!--<body>-->
+
+
+<!--<script rel="script" src="asserts/js/bootstrap.min.js"></script>-->
+<!--<script rel="script" src="asserts/js/jquery-3.6.0.min.js"></script>-->
+<!--<script rel="script" src="Admin.js"></script>-->
+<!--</body>-->
+<!--</html>-->
+
+
+<!DOCTYPE html>
+<!--[if lt IE 7 ]>
+<html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]>
+<html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]>
+<html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en"> <!--<![endif]-->
+<head>
+    <!-- Le Basic Page Needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <title>
+
+        Return DashBord &middot; Sanara Car Rent
+
+    </title>
+    <meta content="width=device-width, initial-scale=1, user-scalable=no" name="viewport">
+
+
+    <link href="https://bootadmin.org/style/vendor/library.min.css" rel="stylesheet">
+    <link href="https://bootadmin.org/style/vendor/jqueryui-flat/jquery-ui.min.css" rel="stylesheet">
+    <link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+          integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" rel="stylesheet">
+
+    <link href="ReturnBooking.css" rel="stylesheet">
+
+
+    <link href="https://bootadmin.org/style/core/style.min.css" rel="stylesheet">
+
+
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link href="AdminStyle.css" rel="stylesheet">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <link href="/images/favicon/apple-touch-icon.png" rel="apple-touch-icon" sizes="76x76">
+    <link href="/images/favicon/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+    <link href="/images/favicon/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+    <link href="/images/favicon/site.webmanifest" rel="manifest">
+    <link color="#5bbad5" href="/images/favicon/safari-pinned-tab.svg" rel="mask-icon">
+    <link href="/images/favicon/favicon.ico" rel="shortcut icon">
+    <meta content="#2d89ef" name="msapplication-TileColor">
+    <meta content="/images/favicon/browserconfig.xml" name="msapplication-config">
+    <meta content="#ffffff" name="theme-color">
+</head>
+
+<body class="sidebar-open" id="landing">
+<div class="loading">
+    <div class="loading-center"><img alt="Loading" src="https://bootadmin.org/images/loading/map.gif"/></div>
+</div>
+<div class="page-container animsition">
+    <div id="dashboardPage">
+
+
+        <!-- Main Menu -->
+        <div class="topbar">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-5 hidden-xs">
+                        <div class="logo">
+                            <a href="/">
+                                <span class="logo-emblem"><img alt="BA" src=""/></span>
+                                <span class="logo-full">Sanara Car Rent</span>
+                            </a>
+                        </div>
+                        <a class="menu-toggle wave-effect" href="#">
+                            <i class="feather icon-menu"></i>
+                        </a>
+                    </div>
+                    <div class="col-md-7 text-right">
+                        <ul>
+                            <!-- Profile Menu -->
+                            <li class="btn-group user-account">
+                                <a aria-expanded="false" aria-haspopup="true" class="btn dropdown-toggle"
+                                   data-toggle="dropdown" href="javascript:">
+                                    <div class="user-content">
+                                        <div class="user-name">Gathsara Umesh</div>
+                                    </div>
+                                    <div class="avatar">
+                                        <img alt="profile"
+                                             src="https://scontent.fcmb2-1.fna.fbcdn.net/v/t1.6435-9/128444773_2781463585447133_4164842009297063278_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=dKx8fug36ZcAX8ax47A&_nc_ht=scontent.fcmb2-1.fna&oh=329e6edc352227111268224838e07ef9&oe=60CC8826"/>
+                                    </div>
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-right">
+                                    <li><a class="animsition-link dropdown-item wave-effect" href="/account/profile"><i
+                                            class="feather icon-user"></i> Profile</a></li>
+                                    <li><a class="animsition-link dropdown-item wave-effect" href="/account/billing"><i
+                                            class="feather icon-dollar-sign"></i> Billing</a></li>
+                                    <li><a class="animsition-link dropdown-item wave-effect" href="/account/settings"><i
+                                            class="feather icon-settings"></i> Settings</a></li>
+                                    <li><a class="animsition-link dropdown-item wave-effect" href="/login"><i
+                                            class="feather icon-log-in"></i> Logout</a></li>
+                                </ul>
+                            </li>
+
+
+                            <li class="mobile-menu-toggle">
+                                <a class="menu-toggle wave-effect" href="#">
+                                    <i class="feather icon-menu"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Main Menu -->
+        <div class="sidebar">
+            <div class="logo">
+                <a href="/">
+                    <span class="logo-emblem"></span>
+                    <span class="logo-full">Sanara Car Rent</span>
+                </a>
+            </div>
+            <ul id="sidebarCookie">
+                <li class="spacer"></li>
+                <li class="profile">
+            <span class="profile-image">
+                <img alt="profile"
+                     src="https://scontent.fcmb2-1.fna.fbcdn.net/v/t1.6435-9/128444773_2781463585447133_4164842009297063278_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=dKx8fug36ZcAX8ax47A&_nc_ht=scontent.fcmb2-1.fna&oh=329e6edc352227111268224838e07ef9&oe=60CC8826"/>
+            </span>
+                    <span class="profile-name">
+                Daniel Craig
+            </span>
+                    <span class="profile-info">
+                Premium User
+            </span>
+                </li>
+                <li class="spacer"></li>
+
+                <li class="nav-item">
+                    <a aria-controls="page-dashboards" aria-expanded="false"
+                       class="nav-link wave-effect collapsed wave-effect" data-parent="#sidebarCookie"
+                       data-toggle="collapse"
+                       href="#navDashboard">
+                        <i class="feather icon-grid"></i>
+                        <span class="menu-title">Dashboard</span>
+                        <i class="feather icon-chevron-down down-arrow"></i>
+                    </a>
+                    <div class="collapse" id="navDashboard">
+                        <ul class="flex-column sub-menu">
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a aria-controls="page-layouts" aria-expanded="false" class="nav-link wave-effect collapsed"
+                       data-parent="#sidebarCookie" data-toggle="collapse" href="#navPageLayouts">
+                        <i class="feather icon-sidebar"></i>
+                        <span class="menu-title">Customer Status</span>
+                        <i class="feather icon-chevron-down down-arrow"></i>
+                    </a>
+                    <div class="collapse" id="navPageLayouts">
+                        <ul class="flex-column sub-menu">
+                            <li class="nav-item">
+                                <a class="nav-link wave-effect" href="CustomerManage.html">
+                                    <i class="feather icon-layout"></i>
+                                    <span class="menu-title">Status</span>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </li>
+                <!--                <li class="nav-item">-->
+                <!--                    <a aria-controls="page-elements" aria-expanded="false" class="nav-link wave-effect collapsed"-->
+                <!--                       data-parent="#sidebarCookie" data-toggle="collapse" href="#navElements">-->
+                <!--                        <i class="feather icon-layout"></i>-->
+                <!--                        <span class="menu-title">Drivers Status</span>-->
+                <!--                        <i class="feather icon-chevron-down down-arrow"></i>-->
+                <!--                    </a>-->
+                <!--                    <div class="collapse" id="navElements">-->
+                <!--                        <ul class="flex-column sub-menu">-->
+                <!--                            <li class="nav-item">-->
+                <!--                                <a class="nav-link wave-effect" href="">-->
+                <!--                                    <i class="feather icon-bold"></i>-->
+                <!--                                    <span class="menu-title">Status</span>-->
+                <!--                                </a>-->
+                <!--                            </li>-->
+                <!--                        </ul>-->
+                <!--                    </div>-->
+                <!--                </li>-->
+
+                <!--                <li class="nav-item">-->
+                <!--                    <a aria-controls="page-mailbox" aria-expanded="false" class="nav-link wave-effect collapsed"-->
+                <!--                       data-parent="#sidebarCookie" data-toggle="collapse" href="#navMailbox">-->
+                <!--                        <i class="feather icon-mail"></i>-->
+                <!--                        <span class="menu-title">Mailbox</span>-->
+                <!--                        <i class="feather icon-chevron-down down-arrow"></i>-->
+                <!--                    </a>-->
+                <!--                    <div class="collapse" id="navMailbox">-->
+                <!--                        <ul class="flex-column sub-menu">-->
+                <!--                            <li class="nav-item">-->
+                <!--                                <a class="nav-link wave-effect" href="">-->
+                <!--                                    <i class="feather icon-inbox"></i>-->
+                <!--                                    <span class="menu-title">Inbox</span>-->
+                <!--                                </a>-->
+                <!--                            </li>-->
+                <!--                            <li class="nav-item">-->
+                <!--                                <a class="nav-link wave-effect" href="">-->
+                <!--                                    <i class="feather icon-mail"></i>-->
+                <!--                                    <span class="menu-title">Email</span>-->
+                <!--                                </a>-->
+                <!--                            </li>-->
+                <!--                            <li class="nav-item">-->
+                <!--                                <a class="nav-link wave-effect" href="">-->
+                <!--                                    <i class="feather icon-send"></i>-->
+                <!--                                    <span class="menu-title">Compose</span>-->
+                <!--                                </a>-->
+                <!--                            </li>-->
+                <!--                        </ul>-->
+                <!--                    </div>-->
+                <!--                </li>-->
+                <!--                <li class="nav-item">-->
+                <!--                    <a class="nav-link wave-effect nav-single" href="">-->
+                <!--                        <i class="feather icon-calendar"></i>-->
+                <!--                        <span class="menu-title">Calendar</span>-->
+                <!--                    </a>-->
+                <!--                </li>-->
+                <!--                <li class="nav-item">-->
+                <!--                    <a aria-controls="page-profilebox" aria-expanded="false" class="nav-link wave-effect collapsed"-->
+                <!--                       data-parent="#sidebarCookie" data-toggle="collapse" href="#navProfilebox">-->
+                <!--                        <i class="feather icon-users"></i>-->
+                <!--                        <span class="menu-title">Account</span>-->
+                <!--                        <i class="feather icon-chevron-down down-arrow"></i>-->
+                <!--                    </a>-->
+                <!--                    <div class="collapse" id="navProfilebox">-->
+                <!--                        <ul class="flex-column sub-menu">-->
+                <!--                            <li class="nav-item">-->
+                <!--                                <a class="nav-link wave-effect" href="">-->
+                <!--                                    <i class="feather icon-user"></i>-->
+                <!--                                    <span class="menu-title">Profile</span>-->
+                <!--                                </a>-->
+                <!--                            </li>-->
+                <!--                            <li class="nav-item">-->
+                <!--                                <a class="nav-link wave-effect" href="">-->
+                <!--                                    <i class="feather icon-dollar-sign"></i>-->
+                <!--                                    <span class="menu-title">Billing</span>-->
+                <!--                                </a>-->
+                <!--                            </li>-->
+                <!--                            <li class="nav-item">-->
+                <!--                                <a class="nav-link wave-effect" href="">-->
+                <!--                                    <i class="feather icon-settings"></i>-->
+                <!--                                    <span class="menu-title">Settings</span>-->
+                <!--                                </a>-->
+                <!--                            </li>-->
+                <!--                        </ul>-->
+                <!--                    </div>-->
+                <!--                </li>-->
+                <!--                <li class="title">-->
+                <!--                    <i class="feather icon-more-horizontal"></i>-->
+                <!--                    <span class="menu-title">Misc</span>-->
+                <!--                </li>-->
+                <!--                <li class="nav-item">-->
+                <!--                    <a class="nav-link wave-effect nav-single" href="">-->
+                <!--                        <i class="feather icon-zap"></i>-->
+                <!--                        <span class="menu-title">Credits</span>-->
+                <!--                    </a>-->
+                <!--                </li>-->
+                <!--                <li class="spacer"></li>-->
+
+            </ul>
+        </div>
+
+        <main>
+            <div class="page-breadcrumb">
+                <div class="row">
+                    <div class="col-6">
+                        <h4 class="page-title">Return Dashboard</h4>
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="/">Home</a></li>
+                                <li aria-current="page" class="breadcrumb-item active">Return Dashboard</li>
+                            </ol>
+                        </nav>
+                    </div>
+                    <div class="col-6">
+                        <div class="text-right">
+                            <small>Users</small>
+                            <h5 class="text-info">3,458</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <!-- column -->
+                    <div class="col-sm-12 col-lg-4">
+                        <div class="card card-hover">
+                            <div class="card-body">
+                                <div class="d-flex">
+                                    <div class="mr-4">
+                                        <small>Wallet Balance</small>
+                                        <h4 class="mb-0">$3,567.53</h4>
+                                    </div>
+                                    <div class="chart ml-auto">
+                                        asdfadf
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- column -->
+                    <div class="col-sm-12 col-lg-4">
+                        <div class="card card-hover bg-red">
+                            <div class="card-body">
+                                <div class="d-flex">
+                                    <div class="mr-4">
+                                        <small>Wallet Balance</small>
+                                        <h4 class="mb-0">$3,567.53</h4>
+                                    </div>
+                                    <div class="chart ml-auto">
+                                        asdfadf
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- column -->
+                    <div class="col-sm-12 col-lg-4">
+                        <div class="card card-hover bg-green">
+                            <div class="card-body">
+                                <div class="d-flex">
+                                    <div class="mr-4">
+                                        <small>Wallet Balance</small>
+                                        <h4 class="mb-0">$3,567.53</h4>
+                                    </div>
+                                    <div class="chart ml-auto">
+                                        asdfadf
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <!-- title -->
+                                <div class="d-md-flex align-items-center">
+                                    <div>
+                                        <h4 class="card-title">ToDay Rent Status</h4>
+                                        <p class="card-subtitle">Listed By Booking Time</p>
+                                    </div>
+                                    <div class="ml-auto">
+                                        <div class="dl">
+                                            <select class="custom-select">
+                                                <option selected="" value="0">Monthly</option>
+                                                <option value="1">Daily</option>
+                                                <option value="2">Weekly</option>
+                                                <option value="3">Yearly</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- title -->
+                            </div>
+                            <div class="table-responsive">
+                                <label for="txtReturnVehicleLD">
+                                    <input id="txtReturnVehicleLD" placeholder="Place Vehicle Id"
+                                           style=" width: 400px;position: relative;margin-left: 27em;" type="email">
+                                </label>
+                                <table class="table v-middle">
+                                    <thead>
+                                    <tr class="bg-light">
+                                        <th class="border-top-0">Booking ID</th>
+                                        <th class="border-top-0">Customer ID</th>
+                                        <th class="border-top-0">Rent Date</th>
+                                        <th class="border-top-0">Return Date</th>
+                                        <th class="border-top-0">Loss Damage</th>
+                                        <th class="border-top-0">Driver</th>
+                                        <th class="border-top-0">Vehicle</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody id="pendingTable">
+
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <!--                    <button class="open-button" onclick="openForm()">Open Form</button>-->
+                    <div class="col-lg-6">
+                        <div class="card card-hover">
+                            <div class="card-body">
+                                <h4 class="card-title">Pending Rent</h4>
+                                <form>
+                                    <input class="form-check-input" id="checkLostD" type="checkbox">
+                                    <div class="mb-3">
+                                        <label class="form-label" for="txtReturnLostDamage">Loss Damage</label>
+                                        <input aria-describedby="emailHelp" class="form-control"
+                                               id="txtReturnLostDamage"
+                                               type="text">
+
+                                    </div>
+                                    <div class="mb-3">
+                                        <label class="form-label" for="txtRRRentDate" style="display: none">Rent
+                                            Date</label>
+                                        <input class="form-control" id="txtRRRentDate" style="display: none"
+                                               type="email">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label class="form-label" for="txtRRReturnDate" style="display: none">Return
+                                            Date</label>
+                                        <input class="form-control" id="txtRRReturnDate" style="display: none"
+                                               type="email">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label class="form-label" for="dailyRentR">Daily Rate</label>
+                                        <input class="form-control" id="dailyRentR" type="email">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label class="form-label" for="monthlyRentR">Monthly Rate</label>
+                                        <input class="form-control" id="monthlyRentR" type="email">
+                                    </div>
+                                    <div class="mb-3" style="display: none">
+                                        <label class="form-label" for="txtExtraKm">Extra KmPrice</label>
+                                        <input class="form-control" id="txtExtraKm" type="email">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label class="form-label" for="txtExtraKmAmount">Extra Km Amount </label>
+                                        <input class="form-control" id="txtExtraKmAmount" type="email">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label class="form-label" for="txtReturnTotalDate">Total Date</label>
+                                        <input class="form-control" id="txtReturnTotalDate" type="email">
+                                    </div>
+
+
+                                    <div class="mb-3">
+                                        <label class="form-label" for="txtFinalResult">Total Amount</label>
+                                        <input class="form-control" id="txtFinalResult" type="email">
+                                    </div>
+
+
+                                    <div class="mb-3">
+                                        <label class="form-label" for="ReturnbookingID">Booking ID</label>
+                                        <input class="form-control" id="ReturnbookingID" type="email">
+                                    </div>
+
+
+                                    <div class="mb-3">
+                                        <label class="form-label" for="ReturnCustid">Customer IId</label>
+                                        <input class="form-control" id="ReturnCustid" type="email">
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label class="form-label" for="ReturnDriverID">Driver IdD</label>
+                                        <input class="form-control" id="ReturnDriverID" type="email">
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label class="form-label" for="ReturnVehicleID">Vehicle ID</label>
+                                        <input class="form-control" id="ReturnVehicleID" type="email">
+                                    </div>
+
+
+                                    <button class="btn btn-success" id="btnReturnOrder"
+                                            style="width: 201px;border-radius: 20px;left: 180px;letter-spacing: normal;position: relative;"
+                                            type="button">
+                                        Return Order
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card has-shadow">
+                            <div class="card-body border-top">
+                                <h4 class="card-title">Stocks</h4>
+                                <table class="table v-middle">
+                                    <thead>
+                                    <tr class="bg-light">
+                                        <th class="border-top-0">Vehicle</th>
+                                        <th class="border-top-0">Brand</th>
+                                        <th class="border-top-0">DailyRate</th>
+                                        <th class="border-top-0">MonthlyRate</th>
+                                        <th class="border-top-0">FreeKmDay</th>
+                                        <th class="border-top-0">FreeKmMonth</th>
+                                        <th class="border-top-0">ExtraPrice</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody id="tableCheckVehicle">
+
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- column -->
+                    <!--                    <div class="col-lg-6">-->
+                    <!--                        <div class="card">-->
+                    <!--                            <div class="card-body">-->
+                    <!--                                <h4 class="card-title">Recent Comments</h4>-->
+                    <!--                                <table class="table">-->
+                    <!--                                    <thead>-->
+                    <!--                                    <tr>-->
+                    <!--                                        <th>Image</th>-->
+                    <!--                                        <th>Product</th>-->
+                    <!--                                        <th>Customer</th>-->
+                    <!--                                        <th>Purchased On</th>-->
+                    <!--                                        <th>Status</th>-->
+                    <!--                                        <th>Tracking No#</th>-->
+                    <!--                                    </tr>-->
+                    <!--                                    </thead>-->
+                    <!--                                    <tbody>-->
+                    <!--                                    <tr>-->
+                    <!--                                        <td>-->
+                    <!--                                            <img alt="iMac"-->
+                    <!--                                                 src="https://bootadmin.org/images/icons/lulu/Desktop.png"-->
+                    <!--                                                 style="width:50px">-->
+                    <!--                                        </td>-->
+                    <!--                                        <td>iMac</td>-->
+                    <!--                                        <td>Russell</td>-->
+                    <!--                                        <td>22/08/2018</td>-->
+                    <!--                                        <td>-->
+                    <!--                                            <span class="badge badge-success font-weight-100">Paid</span>-->
+                    <!--                                        </td>-->
+                    <!--                                        <td>#98BC85SD84</td>-->
+                    <!--                                    </tr>-->
+                    <!--                                    <tr>-->
+                    <!--                                        <td>-->
+                    <!--                                            <img alt="iPhone"-->
+                    <!--                                                 src="https://bootadmin.org/images/icons/lulu/Mobile.png"-->
+                    <!--                                                 style="width:50px">-->
+                    <!--                                        </td>-->
+                    <!--                                        <td>iPhone</td>-->
+                    <!--                                        <td>Carol</td>-->
+                    <!--                                        <td>15/07/2018</td>-->
+                    <!--                                        <td>-->
+                    <!--                                            <span class="badge badge-warning font-weight-100">Pending</span>-->
+                    <!--                                        </td>-->
+                    <!--                                        <td>#98SA3C9SC</td>-->
+                    <!--                                    </tr>-->
+                    <!--                                    <tr>-->
+                    <!--                                        <td>-->
+                    <!--                                            <img alt="apple_watch"-->
+                    <!--                                                 src="https://bootadmin.org/images/icons/lulu/Clock.png"-->
+                    <!--                                                 style="width:50px">-->
+                    <!--                                        </td>-->
+                    <!--                                        <td>Apple Watch</td>-->
+                    <!--                                        <td>Austin Pena</td>-->
+                    <!--                                        <td>10/07/2018</td>-->
+                    <!--                                        <td>-->
+                    <!--                                            <span class="badge badge-success font-weight-100">Paid</span>-->
+                    <!--                                        </td>-->
+                    <!--                                        <td>#98BC85SD84</td>-->
+                    <!--                                    </tr>-->
+                    <!--                                    <tr>-->
+                    <!--                                        <td>-->
+                    <!--                                            <img alt="mac_mouse"-->
+                    <!--                                                 src="https://bootadmin.org/images/icons/lulu/Headphones.png"-->
+                    <!--                                                 style="width:50px">-->
+                    <!--                                        </td>-->
+                    <!--                                        <td>Headphones</td>-->
+                    <!--                                        <td>Randy</td>-->
+                    <!--                                        <td>22/04/2018</td>-->
+                    <!--                                        <td>-->
+                    <!--                                            <span class="badge badge-default font-weight-100">Failed</span>-->
+                    <!--                                        </td>-->
+                    <!--                                        <td>#98SA3C9SC</td>-->
+                    <!--                                    </tr>-->
+                    <!--                                    </tbody>-->
+                    <!--                                </table>-->
+                    <!--                            </div>-->
+                    <!--                        </div>-->
+                    <!--                    </div>-->
+                </div>
+            </div>
+
+
+            <!-- Footer -->
+            <footer>
+                <!--                <input id="bookingID" style="" type="text">-->
+
+
+                <p>&copy; Bootadmin. All Rights Reserved. <br/>Designed and Developed by <a href="https://sazzad.me">Sazzad
+                    Hossain</a>.</p>
+            </footer>
+
+        </main>
+    </div>
+
+</div>
+
+
+<!-- Le Javascript -->
+<script crossorigin="anonymous"
+        integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E="
+        src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
+<script crossorigin="anonymous"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://bootadmin.org/scripts/vendor/bootstrap.min.js"></script>
+<script src="https://bootadmin.org/scripts/vendor/library.min.js"></script>
+
+
+<script src="https://bootadmin.org/scripts/core/main.js"></script>
+
+<script>
+
+
+    $('#txtReturnVehicleLD').on('keyup', function (button) {
+        if (button.key = "Enter") {
+            let id = $('#txtReturnVehicleLD').val()
+            $.ajax({
+                method: 'GET',
+                url: 'http://localhost:8080/Back_end_war_exploded/return/' + id,
+                async: true,
+                success: function (response) {
+                    console.log(response)
+                    let myData = response.data;
+                    for (let i of myData) {
+
+                        let row = `<tr><td>${i.bookingID}</td><td>${i.custNICNumber}</td><td>${i.rentDate}</td><td>${i.returnDate}</td><td>${i.lossDamage}</td><td>${i.driverNICNumber}</td><td>${i.vehicleRegID}</td></tr>`;
+                        $("#pendingTable").append(row);
+
+                    }
+                }
+            })
+        }
+    })
+
+
+    function calculateTotalDays() {
+        let RRRentDate = $('#txtRRRentDate').val()
+        let RRReturnDate = $('#txtRRReturnDate').val()
+        const date1 = new Date(RRRentDate);
+        const date2 = new Date(RRReturnDate);
+        const diffTime = Math.abs(date2 - date1);
+        const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+        console.log(diffDays + " days");
+        $('#txtReturnTotalDate').val(diffDays)
+    }
+
+    $('#txtReturnVehicleLD').on('keyup', function (button) {
+        if (button.key = "Enter") {
+            let id = $('#txtReturnVehicleLD').val()
+            $.ajax({
+                method: 'GET',
+                url: 'http://localhost:8080/Back_end_war_exploded/vehicle/' + id,
+                async: true,
+                success: function (response) {
+                    console.log(response)
+                    let i = response.data
+                    let row = `<tr><td>${i.vehicleRegID}</td><td>${i.vehicleMainBrand}</td><td>${i.vehicleDailyRate}</td><td>${i.vehicleMonthlyRate}</td><td>${i.vehicleFreeKMDay}</td><td>${i.vehicleFreeKMMONTH}</td><td>${i.vehicleExtraKmPrice}</td></tr>`;
+                    $("#tableCheckVehicle").append(row);
+
+                }
+            })
+        }
+    })
+
+    function calculatePrice() {
+        let dailyRate = $('#dailyRentR').val()
+        let monthlyDate = $('#monthlyRentR').val()
+        let spendDate = $('#txtReturnTotalDate').val()
+        let losDamage = $('#txtReturnLostDamage').val()
+        let extraKmAmount = $('#txtExtraKmAmount').val()
+        let extraKm = $('#txtExtraKm').val()
+        let totalExtraKm = (extraKm * extraKmAmount);
+
+        const final = ((dailyRate * spendDate) + totalExtraKm - losDamage);
+        $('#txtFinalResult').val(final)
+    }
+
+    function calculatePriceWithoutLossDamage() {
+        let dailyRate = $('#dailyRentR').val()
+        let monthlyDate = $('#monthlyRentR').val()
+        let spendDate = $('#txtReturnTotalDate').val()
+        let losDamage = $('#txtReturnLostDamage').val()
+        let extraKmAmount = $('#txtExtraKmAmount').val()
+        let extraKm = $('#txtExtraKm').val()
+        let totalExtraKm = (extraKm * extraKmAmount);
+
+        const final = ((dailyRate * spendDate) + totalExtraKm);
+
+        $('#txtFinalResult').val(final)
+    }
+
+    function losDamageCheck() {
+        $('#checkLostD').on('click', function (click) {
+            if (click.key = "click") {
+                calculatePriceWithoutLossDamage();
+            } else {
+                calculatePrice();
+            }
+        })
+    }
+
+    $('#btnReturnOrder').click(function () {
+        if (losDamageCheck()) {
+            losDamageCheck()
+        } else {
+            calculatePrice();
+        }
+
+        let totalAmount = $('#txtFinalResult').val()
+        let booking = $('#ReturnbookingID').val()
+        let custID = $('#ReturnCustid').val()
+        let driver = $('#ReturnDriverID').val()
+        let vehicle = $('#ReturnVehicleID').val()
+
+        console.log(totalAmount)
+        console.log(booking)
+        console.log(custID)
+        console.log(driver)
+        console.log(vehicle)
+
+        $.ajax({
+            method: "POST",
+            url: 'http://localhost:8080/Back_end_war_exploded/payment',
+            contentType: "application/json",
+            async: true,
+            data: JSON.stringify({
+                finalPayment: totalAmount,
+                bookingID: booking,
+                custNICNumber: custID,
+                driverNICNumber: driver,
+                vehicleRegID: vehicle
+            }),
+            success: function (response) {
+                console.log(response)
+            }
+        })
+    })
+
+
+    $('#pendingTable').click(function () {
+        setDataField();
+    })
+
+    function setDataField() {
+        $('#pendingTable>tr').click(function () {
+            let loseDmage = $(this).children('td:eq(4)').text();
+            let RRRentDate = $(this).children('td:eq(2)').text();
+            let RRReturnDate = $(this).children('td:eq(3)').text();
+            let booking = $(this).children('td:eq(0)').text();
+            let customer = $(this).children('td:eq(1)').text();
+            let driver = $(this).children('td:eq(5)').text();
+            let vehicle = $(this).children('td:eq(6)').text();
+
+            $('#txtReturnLostDamage').val(loseDmage)
+            $('#txtRRRentDate').val(RRRentDate)
+            $('#txtRRReturnDate').val(RRReturnDate)
+            $('#ReturnCustid').val(customer)
+            $('#ReturnbookingID').val(booking)
+            $('#ReturnDriverID').val(driver)
+            $('#ReturnVehicleID').val(vehicle)
+
+            calculateTotalDays();
+        })
+    }
+
+    $('#tableCheckVehicle').click(function () {
+        sendDataVehicle();
+
+    })
+
+    function sendDataVehicle() {
+        $('#tableCheckVehicle>tr').click(function () {
+            let dailyRate = $(this).children('td:eq(2)').text();
+            let monthlyRate = $(this).children('td:eq(3)').text();
+            let extraKm = $(this).children('td:eq(6)').text();
+            $('#monthlyRentR').val(monthlyRate);
+            $('#dailyRentR').val(dailyRate);
+            $('#txtExtraKm').val(extraKm)
+        })
+    }
+
+
+    $("#btnAccept").click(function () {
+        console.log("Clicked")
+        setDataField()
+    })
+
+
+</script>
+</body>
+</html>

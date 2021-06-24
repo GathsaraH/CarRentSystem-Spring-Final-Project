@@ -1,0 +1,229 @@
+{
+    "bookingID":"B003",
+    "rentDate":"2021-06-15",
+    "returnDate":"2021-06-27",
+    "lossDamage":12000.00,
+     "lossDamageImage":"lossDamageImage",
+    "bookingStatus":"",
+    "rentStatus":"",
+    "custNICNumber":{
+        "custNICNumber":"C002",
+        "custName":"Umesh",
+        "custAddress":"Rathnapura",
+        "custNICImage":"NicImage",
+        "custDrivingImage":"Driving Image",
+        "custDrivingNumber":"HH7527",
+        "custContact":"0716318031",
+        "custEmail":"umeshgathsara@gmail.com",
+        "custPassword":"1234"
+    },
+    "driverNICNumber":{
+    
+    "driverNICNumber":"D001",
+     "driverName":"Ruwan",
+     "driverNICImage":"NIC Image",
+     "driverDrivingLyImage":"Driver Image",
+     "driverDrivingLyNumber":"2558652659",
+     "driverContact":"07165822821",
+     "driverEmail":"Driver@gmail.com",
+     "driverPassword":"12345"
+    },
+        "bookingDetails":[
+            {
+                "bookingDetailsID":"",
+                "bookingID":{
+                     "bookingID":"B003",
+                     "rentDate":"2021-06-15",
+                     "returnDate":"2021-06-27",
+                         "lossDamage":12000.00,
+                         "lossDamageImage":"lossDamageImage",
+                     "bookingStatus":"",
+                      "rentStatus":"",
+                     "custNICNumber":{
+                          "custNICNumber":"C002",
+                          "custName":"Umesh",
+                          "custAddress":"Rathnapura",
+                          "custNICImage":"NicImage",
+                           "custDrivingImage":"Driving Image",
+                          "custDrivingNumber":"HH7527",
+                          "custContact":"0716318031",
+                          "custEmail":"umeshgathsara@gmail.com",
+                           "custPassword":"1234"
+                      },
+                     "driverNICNumber":{
+                         "driverNICNumber":"B003",
+                         "driverName":"Ruwan",
+                         "driverNICImage":"NIC Image",
+                         "driverDrivingLyImage":"Driver Image",
+                         "driverDrivingLyNumber":"2558652659",
+                         "driverContact":"07165822821",
+                         "driverEmail":"Driver@gmail.com",
+                         "driverPassword":"12345"
+                       }
+
+                },
+                "vehicleRegID":{
+                                
+               "vehicleRegID":"V002",
+               "vehicleMainBrand":"Lambogini",
+               "vehicleSubBrand":"A1",
+               "vehicleType": "Luxry",
+               "vehicleNumberOfPassage":"6",
+               "vehicleTransmissionType":"Auto",
+                "vehicleFuelType":"Desel",
+               "vehicleColor":"Black",
+               "vehicleDailyRate":"400",
+               "vehicleMonthlyRate":"500",
+               "vehicleFreeMiles":"2",
+               "vehicleExtraKmPrice":"8000"
+                }
+
+             },
+              {
+                "bookingDetailsID":"",
+                "bookingID":{
+                     "bookingID":"B003",
+                     "rentDate":"2021-06-15",
+                     "returnDate":"2021-06-27",
+                     "bookingStatus":"",
+                      "rentStatus":"",
+                     "custNICNumber":{
+                          "custNICNumber":"C002",
+                          "custName":"Umesh",
+                          "custAddress":"Rathnapura",
+                          "custNICImage":"NicImage",
+                           "custDrivingImage":"Driving Image",
+                          "custDrivingNumber":"HH7527",
+                          "custContact":"0716318031",
+                          "custEmail":"umeshgathsara@gmail.com",
+                           "custPassword":"1234"
+                      },
+                     "driverNICNumber":{
+                         "driverNICNumber":"D001",
+                         "driverName":"Ruwan",
+                         "driverNICImage":"NIC Image",
+                         "driverDrivingLyImage":"Driver Image",
+                         "driverDrivingLyNumber":"2558652659",
+                         "driverContact":"07165822821",
+                         "driverEmail":"Driver@gmail.com",
+                         "driverPassword":"12345"
+                       }
+
+                },
+                "vehicleRegID":{
+                                
+               "vehicleRegID":"V002",
+               "vehicleMainBrand":"Lambogini",
+               "vehicleSubBrand":"A1",
+               "vehicleType": "Luxry",
+               "vehicleNumberOfPassage":"6",
+               "vehicleTransmissionType":"Auto",
+                "vehicleFuelType":"Desel",
+               "vehicleColor":"Black",
+               "vehicleDailyRate":"400",
+               "vehicleMonthlyRate":"500",
+               "vehicleFreeMiles":"2",
+               "vehicleExtraKmPrice":"8000"
+                }
+
+             },
+              {
+                "bookingDetailsID":"",
+                "bookingID":{
+                     "bookingID":"B003",
+                     "rentDate":"2021-06-15",
+                     "returnDate":"2021-06-27",
+                     "bookingStatus":"",
+                      "rentStatus":"",
+                     "custNICNumber":{
+                          "custNICNumber":"C002",
+                          "custName":"Umesh",
+                          "custAddress":"Rathnapura",
+                          "custNICImage":"NicImage",
+                           "custDrivingImage":"Driving Image",
+                          "custDrivingNumber":"HH7527",
+                          "custContact":"0716318031",
+                          "custEmail":"umeshgathsara@gmail.com",
+                           "custPassword":"1234"
+                      },
+                     "driverNICNumber":{
+                         "driverNICNumber":"D001",
+                         "driverName":"Ruwan",
+                         "driverNICImage":"NIC Image",
+                         "driverDrivingLyImage":"Driver Image",
+                         "driverDrivingLyNumber":"2558652659",
+                         "driverContact":"07165822821",
+                         "driverEmail":"Driver@gmail.com",
+                         "driverPassword":"12345"
+                       }
+
+                },
+                "vehicleRegID":{
+                                
+               "vehicleRegID":"V002",
+               "vehicleMainBrand":"Lambogini",
+               "vehicleSubBrand":"A1",
+               "vehicleType": "Luxry",
+               "vehicleNumberOfPassage":"6",
+               "vehicleTransmissionType":"Auto",
+                "vehicleFuelType":"Desel",
+               "vehicleColor":"Black",
+               "vehicleDailyRate":"400",
+               "vehicleMonthlyRate":"500",
+               "vehicleFreeMiles":"2",
+               "vehicleExtraKmPrice":"8000"
+                }
+
+             },
+              {
+                "bookingDetailsID":"",
+                "bookingID":{
+                     "bookingID":"B003",
+                     "rentDate":"2021-06-15",
+                     "returnDate":"2021-06-27",
+                     "bookingStatus":"",
+                      "rentStatus":"",
+                     "custNICNumber":{
+                          "custNICNumber":"C002",
+                          "custName":"Umesh",
+                          "custAddress":"Rathnapura",
+                          "custNICImage":"NicImage",
+                           "custDrivingImage":"Driving Image",
+                          "custDrivingNumber":"HH7527",
+                          "custContact":"0716318031",
+                          "custEmail":"umeshgathsara@gmail.com",
+                           "custPassword":"1234"
+                      },
+                     "driverNICNumber":{
+                         "driverNICNumber":"D001",
+                         "driverName":"Ruwan",
+                         "driverNICImage":"NIC Image",
+                         "driverDrivingLyImage":"Driver Image",
+                         "driverDrivingLyNumber":"2558652659",
+                         "driverContact":"07165822821",
+                         "driverEmail":"Driver@gmail.com",
+                         "driverPassword":"12345"
+                       }
+
+                },
+                "vehicleRegID":{
+                                
+               "vehicleRegID":"V002",
+               "vehicleMainBrand":"Lambogini",
+               "vehicleSubBrand":"A1",
+               "vehicleType": "Luxry",
+               "vehicleNumberOfPassage":"6",
+               "vehicleTransmissionType":"Auto",
+                "vehicleFuelType":"Desel",
+               "vehicleColor":"Black",
+               "vehicleDailyRate":"400",
+               "vehicleMonthlyRate":"500",
+               "vehicleFreeMiles":"2",
+               "vehicleExtraKmPrice":"8000"
+                }
+
+             }
+        ]
+    
+
+}
