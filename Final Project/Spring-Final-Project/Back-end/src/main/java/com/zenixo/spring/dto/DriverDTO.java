@@ -17,6 +17,7 @@ public class DriverDTO {
     private String driverContact;
     private String driverEmail;
     private String driverPassword;
+    private String driverStatus;
 
     public DriverDTO(String driverNICNumber) {
         this.driverNICNumber = driverNICNumber;

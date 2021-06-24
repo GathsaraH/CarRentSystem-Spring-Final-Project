@@ -10,167 +10,130 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef20c5cc-c4b6-479e-a23b-d8338c22bd4e" name="Default Changelist" comment="Back-end 60 %">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_mail_javax_mail_api_1_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_mail_mail_1_4_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_3_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/controller/BookingDetailsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/controller/CustomerMessageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/controller/EmailController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/controller/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/controller/ReturnController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/dto/BookingAccreptDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/dto/CustomDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/dto/CustomerMessageDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/dto/ReturnBookingDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/dto/VehicleIDDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/entity/CustomEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/entity/CustomerMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/entity/DriverSchedule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/entity/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/entity/VehicleSchedule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/repo/CustomerMessageRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/repo/DriverSheduleRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/repo/LoginRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/repo/PaymentRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/repo/VehicleScheduleRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/service/BookingDetailsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/service/CustomerMessageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/service/LoginService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/service/MailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/service/PaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/service/impl/BookingDetailsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/service/impl/CustomerMessageServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/service/impl/LoginServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/service/impl/MailServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/service/impl/PaymentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-end/AdminStyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-end/CustomerManage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-end/ReturnBooking.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-end/ReturnBooking.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-end/asserts/img/av1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-end/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Back_end_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Back_end_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/063ed3bd-54b9-4aba-9b49-b7a12263bc37.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/063ed3bd-54b9-4aba-9b49-b7a12263bc37/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/063ed3bd-54b9-4aba-9b49-b7a12263bc37/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/063ed3bd-54b9-4aba-9b49-b7a12263bc37/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/063ed3bd-54b9-4aba-9b49-b7a12263bc37/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_3_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_3_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/AddDrivers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/css/animate.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/css/default-skin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/css/icomoon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/css/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/css/jquery.fancybox.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/css/jquery.mCustomScrollbar.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/css/meanmenu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/css/nice-select.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/css/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/css/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/css/slick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/fonts/IcoMoon-Free.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/fonts/Poppins-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/fonts/Poppins-BlackItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/fonts/Poppins-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/fonts/Poppins-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/fonts/Poppins-ExtraBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/fonts/Poppins-ExtraBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/fonts/Poppins-ExtraLight.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/fonts/Poppins-ExtraLightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/fonts/Poppins-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/fonts/Poppins-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/fonts/Poppins-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/fonts/Poppins-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/fonts/Poppins-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/fonts/Poppins-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/fonts/Poppins-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/fonts/Poppins-SemiBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/fonts/Poppins-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/fonts/Poppins-ThinItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/images/banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/images/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/images/car_img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/images/car_img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/images/car_img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/images/cross_img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/images/donny-jiang-41xHdTcuWq0-unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/images/menu_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/images/obi-onyeador-XT95JA80yzM-unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/images/pexels-pixabay-164634.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/images/te1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/js/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/js/jquery-3.0.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/js/jquery.mCustomScrollbar.concat.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/js/jquery.validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/js/modernizer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/js/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/js/revolution/assets/coloredbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/js/revolution/assets/gridtile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/js/revolution/assets/gridtile_3x3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/js/revolution/assets/gridtile_3x3_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/js/revolution/assets/gridtile_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/js/revolution/assets/loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/js/revolution/css/closedhand.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/js/revolution/css/layers.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/js/revolution/css/navigation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/js/revolution/css/openhand.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/js/revolution/css/settings.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/js/revolution/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/js/revolution/fonts/pe-icon-7-stroke/fonts/Pe-icon-7-strokebb1d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/js/revolution/fonts/pe-icon-7-stroke/fonts/Pe-icon-7-strokebb1d.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/js/revolution/fonts/pe-icon-7-stroke/fonts/Pe-icon-7-strokebb1d.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/js/revolution/fonts/pe-icon-7-stroke/fonts/Pe-icon-7-strokebb1d.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/js/revolution/fonts/pe-icon-7-stroke/fonts/Pe-icon-7-stroked41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/js/revolution/fonts/revicons/revicons90c6.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/js/revolution/fonts/revicons/revicons90c6.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/js/revolution/fonts/revicons/revicons90c6.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/js/revolution/fonts/revicons/revicons90c6.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/js/revolution/js/extensions/revolution.extension.actions.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/js/revolution/js/extensions/revolution.extension.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/js/revolution/js/extensions/revolution.extension.kenburn.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/js/revolution/js/extensions/revolution.extension.layeranimation.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/js/revolution/js/extensions/revolution.extension.migration.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/js/revolution/js/extensions/revolution.extension.navigation.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/js/revolution/js/extensions/revolution.extension.parallax.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/js/revolution/js/extensions/revolution.extension.slideanims.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/js/revolution/js/extensions/revolution.extension.video.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/js/revolution/js/jquery.themepunch.revolution.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/js/revolution/js/jquery.themepunch.tools.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/rento/js/slider-setting.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/Back-end.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/Back-end.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/config/JPAConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/config/JPAConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/config/WebAppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/config/WebAppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/config/WebAppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/config/WebAppInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/config/WebRootConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/config/WebRootConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/controller/BookingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/controller/BookingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/controller/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/controller/DriverController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/controller/DriverController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/controller/VehicleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/controller/VehicleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/dto/BookingDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/dto/BookingDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/dto/BookingDetailsDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/dto/BookingDetailsDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/dto/CustomerDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/dto/CustomerDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/dto/VehicleDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/dto/VehicleDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/entity/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/entity/Booking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/entity/BookingDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/entity/BookingDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/entity/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/entity/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/entity/Drivers.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/entity/Drivers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/entity/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/entity/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/repo/BookingDetailsRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/repo/BookingDetailsRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/repo/BookingRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/repo/BookingRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/repo/CustomerRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/repo/CustomerRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/repo/DriverRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/repo/DriverRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/repo/VehicleRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/repo/VehicleRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/service/BookingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/service/BookingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/service/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/service/DriverService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/service/DriverService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/service/VehicleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/service/VehicleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/service/impl/BookingServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/service/impl/BookingServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/service/impl/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/service/impl/CustomerServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/service/impl/DriverServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/service/impl/DriverServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/service/impl/VehicleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/service/impl/VehicleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/config/JPAConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/config/JPAConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/config/WebAppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/config/WebAppConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/config/WebAppInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/config/WebAppInitializer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/config/WebRootConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/config/WebRootConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/controller/BookingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/controller/BookingController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/controller/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/controller/CustomerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/controller/DriverController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/controller/DriverController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/controller/VehicleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/controller/VehicleController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/dto/BookingDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/dto/BookingDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/dto/BookingDetailsDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/dto/BookingDetailsDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/dto/CustomerDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/dto/CustomerDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/dto/VehicleDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/dto/VehicleDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/entity/Booking.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/entity/Booking.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/entity/BookingDetails.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/entity/BookingDetails.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/entity/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/entity/Customer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/entity/Drivers.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/entity/Drivers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/entity/Vehicle.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/entity/Vehicle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/repo/BookingDetailsRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/repo/BookingDetailsRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/repo/BookingRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/repo/BookingRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/repo/CustomerRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/repo/CustomerRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/repo/DriverRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/repo/DriverRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/repo/VehicleRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/repo/VehicleRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/service/BookingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/service/BookingService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/service/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/service/CustomerService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/service/DriverService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/service/DriverService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/service/VehicleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/service/VehicleService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/service/impl/BookingServiceImpl$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/service/impl/BookingServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/service/impl/BookingServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/service/impl/CustomerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/service/impl/CustomerServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/service/impl/DriverServiceImpl$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/service/impl/DriverServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/service/impl/DriverServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/service/impl/VehicleServiceImpl$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/service/impl/VehicleServiceImpl$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/service/impl/VehicleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/classes/com/zenixo/spring/service/impl/VehicleServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/target/Back-end-1.0.0/WEB-INF/lib/spring-context-5.3.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/config/JPAConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/config/JPAConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/config/WebAppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/config/WebAppConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/config/WebAppInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/config/WebAppInitializer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/config/WebRootConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/config/WebRootConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/controller/BookingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/controller/BookingController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/controller/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/controller/CustomerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/controller/DriverController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/controller/DriverController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/controller/VehicleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/controller/VehicleController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/dto/BookingDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/dto/BookingDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/dto/BookingDetailsDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/dto/BookingDetailsDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/dto/CustomerDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/dto/CustomerDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/dto/VehicleDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/dto/VehicleDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/entity/Booking.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/entity/Booking.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/entity/BookingDetails.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/entity/BookingDetails.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/entity/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/entity/Customer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/entity/Drivers.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/entity/Drivers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/entity/Vehicle.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/entity/Vehicle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/repo/BookingDetailsRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/repo/BookingDetailsRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/repo/BookingRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/repo/BookingRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/repo/CustomerRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/repo/CustomerRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/repo/DriverRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/repo/DriverRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/repo/VehicleRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/repo/VehicleRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/service/BookingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/service/BookingService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/service/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/service/CustomerService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/service/DriverService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/service/DriverService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/service/VehicleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/service/VehicleService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/service/impl/BookingServiceImpl$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/service/impl/BookingServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/service/impl/BookingServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/service/impl/CustomerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/service/impl/CustomerServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/service/impl/DriverServiceImpl$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/service/impl/DriverServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/service/impl/DriverServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/service/impl/VehicleServiceImpl$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/service/impl/VehicleServiceImpl$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/service/impl/VehicleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/target/classes/com/zenixo/spring/service/impl/VehicleServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/dto/DriverDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring/dto/DriverDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Front-end/AddVehicle.html" beforeDir="false" afterPath="$PROJECT_DIR$/Front-end/AddVehicle.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Front-end/Admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/Front-end/Admin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-end/CustomerManage.html" beforeDir="false" afterPath="$PROJECT_DIR$/Front-end/CustomerManage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Front-end/Login.html" beforeDir="false" afterPath="$PROJECT_DIR$/Front-end/Login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Front-end/Register.html" beforeDir="false" afterPath="$PROJECT_DIR$/Front-end/Register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-end/ReturnBooking.html" beforeDir="false" afterPath="$PROJECT_DIR$/Front-end/ReturnBooking.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Front-end/User.html" beforeDir="false" afterPath="$PROJECT_DIR$/Front-end/User.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end/Vehicle.css" beforeDir="false" afterPath="$PROJECT_DIR$/Front-end/Vehicle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end/index2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end/model/Vehicle.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front-end/model/Vehicle.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Front-end/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Front-end/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -191,7 +154,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -230,6 +193,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\My Project\Maven(Spring)\Sanara Car Rent\Final Project\Spring-Final-Project\Front-end" />
       <recent name="D:\My Project\Maven(Spring)\Final Project Test\Final Project\Spring-Final-Project\Front-end" />
       <recent name="$PROJECT_DIR$/Back-end/src/main/java/com/zenixo/spring" />
       <recent name="$PROJECT_DIR$/Back-end/src/main/resources" />
@@ -252,6 +216,17 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -396,6 +371,8 @@
       <workItem from="1624413156504" duration="14396000" />
       <workItem from="1624433626169" duration="5672000" />
       <workItem from="1624439513734" duration="61205000" />
+      <workItem from="1624538604732" duration="437000" />
+      <workItem from="1624563567304" duration="8353000" />
     </task>
     <task id="LOCAL-00001" summary="Back-end 60 %">
       <created>1624156698177</created>
