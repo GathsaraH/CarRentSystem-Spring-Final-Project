@@ -6,8 +6,6 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 
 import java.util.ArrayList;
-import java.util.List;
-import java.util.Objects;
 
 public interface BookingRepo extends JpaRepository<Booking, String> {
 
@@ -21,7 +19,11 @@ public interface BookingRepo extends JpaRepository<Booking, String> {
 //
 
     @Query(value = "SELECT b.bookingID, b.rentDate, b.returnDate, b.custNICNumber.custNICNumber, bd.lossDamage, bd.driverNICNumber.driverNICNumber, bd.vehicleRegID.vehicleRegID FROM Booking b INNER JOIN b.bookingDetails bd  WHERE bd.vehicleRegID.vehicleStatus='OnUse' AND bd.vehicleRegID.vehicleRegID=:vehicleRegID")
-    ArrayList<Object[]>  getReturn(@Param("vehicleRegID") String vehicleRegID);
+    ArrayList<Object[]> getReturn(@Param("vehicleRegID") String vehicleRegID);
+
+
+    @Query(value = "SELECT bookingID FROM booking ORDER BY bookingID DESC LIMIT 1", nativeQuery = true)
+    String getLastID();
 
 
 }

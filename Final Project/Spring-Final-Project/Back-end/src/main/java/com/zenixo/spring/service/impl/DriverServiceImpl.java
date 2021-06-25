@@ -3,7 +3,6 @@ package com.zenixo.spring.service.impl;
 import com.zenixo.spring.dto.BookingDetailsDTO;
 import com.zenixo.spring.dto.CustomDTO;
 import com.zenixo.spring.dto.DriverDTO;
-import com.zenixo.spring.dto.ReturnBookingDTO;
 import com.zenixo.spring.entity.BookingDetails;
 import com.zenixo.spring.entity.Drivers;
 import com.zenixo.spring.repo.BookingDetailsRepo;
@@ -11,6 +10,7 @@ import com.zenixo.spring.repo.BookingRepo;
 import com.zenixo.spring.repo.DriverRepo;
 import com.zenixo.spring.service.DriverService;
 import org.modelmapper.ModelMapper;
+import org.modelmapper.TypeToken;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -96,14 +96,20 @@ public class DriverServiceImpl implements DriverService {
 
     @Override
     public ArrayList<DriverDTO> getNotAssignDrivers() {
-        ArrayList<DriverDTO> driverDTOS = new ArrayList<>();
-        List<Drivers> list = driverRepo.getNotAssignDrivers();
-        for (Drivers d : list) {
-            driverDTOS.add(new DriverDTO(
-                    d.getDriverNICNumber()
-            ));
-        }
-        return driverDTOS;
+//        ArrayList<DriverDTO> driverDTOS = new ArrayList<>();
+//        List<Drivers> list = driverRepo.getNotAssignDrivers();
+//        for (Drivers d : list) {
+//            driverDTOS.add(new DriverDTO(
+//                    d.getDriverNICNumber()
+//            ));
+//        }
+//        return driverDTOS;\
+
+        List<Drivers> all = driverRepo.findAll();
+        return mapper.map(all, new TypeToken<ArrayList<DriverDTO>>() {
+        }.getType());
+
+
     }
 
 
@@ -145,13 +151,19 @@ public class DriverServiceImpl implements DriverService {
         return all;
     }
 
-    
 
     @Override
     public void updateDriverStatus(DriverDTO d) {
         Drivers byId = driverRepo.findById(d.getDriverNICNumber()).get();
         byId.setDriverStatus("ASSIGN");
         driverRepo.save(byId);
+    }
+
+    @Override
+    public ArrayList<DriverDTO> getAllDrivers() {
+        List<Drivers> all = driverRepo.findAll();
+        return mapper.map(all, new TypeToken<ArrayList<DriverDTO>>() {
+        }.getType());
     }
 
 

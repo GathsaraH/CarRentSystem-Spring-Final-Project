@@ -9,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
+import java.util.List;
 
 @Service
 @Transactional
@@ -55,14 +56,20 @@ public class PaymentServiceImpl implements PaymentService {
                     booking1.setRentStatus("All Done");
                     Booking save3 = bookingRepo.save(booking1);
                     if (save3 != null) {
-                        DriverSchedule schedule = driverSheduleRepo.findByDriverNICNumber(dto.getDriverNICNumber());
-                        schedule.setStartDate("Free");
-                        DriverSchedule save4 = driverSheduleRepo.save(schedule);
-                        if (save4 != null) {
-                            VehicleSchedule schedule1 = vehicleScheduleRepo.findByVehicleRegID(dto.getVehicleRegID());
-                            schedule1.setStartDate("Free");
-                            VehicleSchedule save5 = vehicleScheduleRepo.save(schedule1);
+                        List<DriverSchedule> list = driverSheduleRepo.findByDriverNICNumber(dto.getDriverNICNumber());
+                        for (DriverSchedule d : list) {
+                            DriverSchedule schedule = new DriverSchedule(
+                                    d.setDriverStatus("Free")
+                            );
+                            driverSheduleRepo.save(schedule);
                         }
+
+//                        driverSheduleRepo.save(byDriverNICNumber);
+//                        if (save4 != null) {
+//                            VehicleSchedule schedule1 = vehicleScheduleRepo.findByVehicleRegID(dto.getVehicleRegID());
+//                            schedule1.setStartDate("Free");
+//                            VehicleSchedule save5 = vehicleScheduleRepo.save(schedule1);
+//                        }
 
                     }
                 }

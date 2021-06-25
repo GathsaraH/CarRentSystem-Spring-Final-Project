@@ -18,4 +18,6 @@ public interface DriverService {
     ArrayList<CustomDTO> getReturn(String vehicleRegID);
 
     void updateDriverStatus(DriverDTO driverNICNumber);
+
+    ArrayList<DriverDTO>getAllDrivers();
 }

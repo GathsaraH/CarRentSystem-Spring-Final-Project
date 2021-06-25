@@ -17,4 +17,6 @@ public interface BookingService {
     void updateReject(BookingDTO dto);
 
     BookingDTO searchBooking(String bookingID);
+
+    String getLastRid();
 }

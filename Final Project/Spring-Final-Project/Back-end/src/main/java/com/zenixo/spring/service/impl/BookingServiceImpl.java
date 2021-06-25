@@ -189,4 +189,9 @@ public class BookingServiceImpl implements BookingService {
         }
         return null;
     }
+
+    @Override
+    public String getLastRid() {
+        return bookingRepo.getLastID();
+    }
 }

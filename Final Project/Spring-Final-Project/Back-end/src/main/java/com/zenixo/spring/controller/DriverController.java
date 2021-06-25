@@ -53,4 +53,10 @@ public class DriverController {
         return new ResponseEntity(new StandardResponse("200", "Done", driverDTO), HttpStatus.OK);
     }
 
+    @GetMapping("allDrivers")
+    public ResponseEntity getAllDrivers() {
+        ArrayList<DriverDTO> allDrivers = driverService.getAllDrivers();
+        return new ResponseEntity(new StandardResponse("200", "Done", allDrivers), HttpStatus.OK);
+    }
+
 }

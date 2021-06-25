@@ -15,9 +15,9 @@
         <div class="container">
             <h1>Log in</h1>
             <select class="optionS">
-                <option  value="0">Choose Yor Role</option>
-                <option value="1">Customers</option>
-                <option value="2">Driver</option>
+                <option value="0">Choose Yor Role</option>
+                <option id="optionCustomer">Customers</option>
+                <option id="optionDriver">Driver</option>
             </select>
             <input id="txtCustomerEmail" placeholder="Email" type="email">
             <input id="txtCustomerPassowrd" placeholder="Password" type="password"><br>
@@ -49,26 +49,42 @@
 <script rel="script" src="asserts/js/bootstrap.min.js"></script>
 <script rel="script" src="asserts/js/jquery-3.6.0.min.js"></script>
 <script rel="script" src="script.js"></script>
-
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <script>
 
 
     $('#btnLogin').click(function () {
-        let custEmail = $('#txtCustomerEmail').val()
-        let custPass = $('#txtCustomerPassowrd').val()
 
-        $.ajax({
-            method: "GET",
-            url: 'http://localhost:8080/Back_end_war_exploded/login/' + custEmail ,
-            async: true,
-            success: function (response) {
-                console.log(response)
-            }
-        })
+
+        let optionCustomer = $('#optionCustomer').val();
+        let optionDriver = $('#optionDriver').val();
+        console.log(optionCustomer)
+        console.log(optionDriver)
+        let role;
+
+        if (role === optionCustomer || role === optionDriver) {
+            alert("Customer")
+        }else {
+            alert("Driver")
+        }
+
+            // let custEmail = $('#txtCustomerEmail').val()
+        // let custPass = $('#txtCustomerPassowrd').val()
+        //
+        // $.ajax({
+        //     method: "GET",
+        //     url: 'http://localhost:8080/Back_end_war_exploded/login/' + custEmail,
+        //     async: true,
+        //     success: function (response) {
+        //
+        //     }
+        // })
+
 
     })
 
 
 </script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </body>
 </html>

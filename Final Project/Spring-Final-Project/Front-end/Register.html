@@ -42,14 +42,16 @@
             <i class="fas fa-user-plus fa-5x"></i>
             <h2>Hello,friend!</h2>
             <p>Enter your personal details and start journey with us</p>
-            <button id=""><i class="fas fa-arrow-circle-right"></i><a href="Login.html" style="color: #FFFFFF;text-decoration: none;">Login</a></button>
+            <button id=""><i class="fas fa-arrow-circle-right"></i><a href="Login.html"
+                                                                      style="color: #FFFFFF;text-decoration: none;">Login</a>
+            </button>
         </div>
     </div>
 </div>
 <script rel="script" src="asserts/js/bootstrap.min.js"></script>
 <script rel="script" src="asserts/js/jquery-3.6.0.min.js"></script>
 <script rel="script" src="script.js"></script>
-
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <script>
     import {Alert} from "./asserts/js/bootstrap.esm";
 </script>
@@ -104,16 +106,16 @@
                         custPassword: custPassword
                     }),
                     success: function (date) {
-                        if (date === true) {
-                            return confirm("Your Successfully Registered");
+                        if (date.message == 'Done') {
+                            swal("Registration Success !", "You have a Customer!", "success");
                         } else {
-                            return confirm("Your Registration Failed ");
+                            swal("Registration Fail !", "You have a Customer!", "warning");
                         }
 
                     }
                 })
 
-                return confirm("Your Successfully Registered");
+
             }
         });
 
@@ -173,12 +175,13 @@
                 custPassword: custPassword
             }),
             success: function (date) {
-                if (date === true) {
-                    return confirm("Your Successfully Registered");
-                } else {
-                    return confirm("Your Registration Failed ");
-                }
+                if (date.message == 'Done') {
+                    swal("Registration Success !", "You have a driver!", "success");
+                    window.location.href = "User.html";
 
+                } else {
+                    swal("Registration Fail !", "You have a driver!", "warning");
+                }
             }
         })
 
@@ -186,5 +189,8 @@
 
     })
 </script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </body>
 </html>
+
+

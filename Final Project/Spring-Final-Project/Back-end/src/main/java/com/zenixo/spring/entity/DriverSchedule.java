@@ -28,4 +28,18 @@ public class DriverSchedule {
         this.driverStatus = driverStatus;
         this.driverNICNumber = driverNICNumber;
     }
+
+
+    public DriverSchedule(String driverStatus) {
+        this.driverStatus = driverStatus;
+    }
+
+    public String getDriverStatus() {
+        return driverStatus;
+    }
+
+    public String setDriverStatus(String driverStatus) {
+        this.driverStatus = driverStatus;
+        return driverStatus;
+    }
 }

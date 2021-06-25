@@ -37,6 +37,76 @@
      box-sizing: border-box !important;
 }
 
+
+@keyframes blubb {
+     10% {
+          flex: .5;
+     }
+     20% {
+          flex: 2.5;
+     }
+     30% {
+          flex: .7;
+     }
+     40% {
+          flex: 2;
+     }
+     50% {
+          flex: .8;
+     }
+     60% {
+          flex: 1.5;
+     }
+     70% {
+          flex: .9;
+     }
+     80% {
+          flex: 1.1;
+     }
+     100% {
+          flex: 1;
+     }
+}
+
+#hpc{
+     display: flex;
+     flex-direction: row;
+     left: 12em;
+     top: 14em;
+}
+.happyCustomers h4{
+     font-family: "Roboto Medium";
+     font-size: 40px;
+}
+
+.happyCustomers h5{
+     font-family: "Roboto Light";
+}
+
+.roles {
+     font-size: 40px;
+     height: 60px;
+     vertical-align: middle;
+     overflow: hidden;
+}
+
+.roles div {
+     height: 50px;
+     transition: margin-top 1s ease-in-out;
+}
+
+.wrapper {
+     margin-top: 80px;
+     margin-bottom: 20px;
+     padding: 50px;
+     width: 500px;
+     display: block;
+     text-align: center;
+     /*margin: 0 auto;*/
+     border: #5a6268 2px solid;
+}
+
+
 html {
      scroll-behavior: smooth;
 }

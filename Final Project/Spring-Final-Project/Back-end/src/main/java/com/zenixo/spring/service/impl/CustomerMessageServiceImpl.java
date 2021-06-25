@@ -2,6 +2,7 @@ package com.zenixo.spring.service.impl;
 
 import com.zenixo.spring.dto.CustomerDTO;
 import com.zenixo.spring.dto.CustomerMessageDTO;
+import com.zenixo.spring.dto.ForGetCustMsgDTO;
 import com.zenixo.spring.entity.Customer;
 import com.zenixo.spring.entity.CustomerMessage;
 import com.zenixo.spring.repo.CustomerMessageRepo;
@@ -30,6 +31,15 @@ public class CustomerMessageServiceImpl implements CustomerMessageService {
         Optional<Customer> customer = customerRepo.findById(custNICNumber);
         if (customer.isPresent()) {
             return mapper.map(customer.get(), CustomerDTO.class);
+        }
+        return null;
+    }
+
+    @Override
+    public CustomerMessageDTO searchCustomersForEmail(ForGetCustMsgDTO dto) {
+        Optional<CustomerMessage> byCustNICNumber = customerMessageRepo.findByCustNICNumber(dto.getCustNICNumber());
+        if (byCustNICNumber.isPresent()) {
+            return mapper.map(byCustNICNumber.get(), CustomerMessageDTO.class);
         }
         return null;
     }

@@ -2,6 +2,7 @@ package com.zenixo.spring.controller;
 
 import com.zenixo.spring.dto.CustomerDTO;
 import com.zenixo.spring.dto.CustomerMessageDTO;
+import com.zenixo.spring.dto.ForGetCustMsgDTO;
 import com.zenixo.spring.exception.NotFoundException;
 import com.zenixo.spring.service.CustomerMessageService;
 import com.zenixo.spring.util.StandardResponse;
@@ -39,6 +40,15 @@ public class CustomerMessageController {
         return new ResponseEntity(new StandardResponse("201", "Done", dto), HttpStatus.CREATED);
     }
 
+
+    @GetMapping
+    public ResponseEntity searchCustomerForEmail(@RequestBody ForGetCustMsgDTO dto) {
+        System.out.println("custNICNumber ID Search");
+        System.out.println("custNICNumber ID Search" + dto);
+
+        CustomerMessageDTO customerDTO = customerMessageService.searchCustomersForEmail(dto);
+        return new ResponseEntity(new StandardResponse("200", "Done", customerDTO), HttpStatus.OK);
+    }
 }
 
 

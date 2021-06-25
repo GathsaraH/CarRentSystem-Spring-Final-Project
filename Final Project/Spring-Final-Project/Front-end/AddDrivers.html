@@ -1,22 +1,4 @@
-<!--<!doctype html>-->
-<!--<html lang="en">-->
-<!--<head>-->
-<!--    <meta charset="UTF-8">-->
-<!--    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"-->
-<!--          name="viewport">-->
-<!--    <meta content="ie=edge" http-equiv="X-UA-Compatible">-->
-<!--    <link href="Admin.css" rel="stylesheet">-->
-<!--    <link href="asserts/css/bootstrap-grid.min.css" rel="stylesheet">-->
-<!--    <title>Admin Panel</title>-->
-<!--</head>-->
-<!--<body>-->
 
-
-<!--<script rel="script" src="asserts/js/bootstrap.min.js"></script>-->
-<!--<script rel="script" src="asserts/js/jquery-3.6.0.min.js"></script>-->
-<!--<script rel="script" src="Admin.js"></script>-->
-<!--</body>-->
-<!--</html>-->
 
 
 <!DOCTYPE html>
@@ -389,11 +371,13 @@
                                 <h4 class="card-title" style="color: #0c63e4">Add Drivers</h4>
                                 <div class="mb-3">
                                     <label class="form-label" for="txtdriverNICNumber">Driver ID</label>
-                                    <input class="form-control" id="txtdriverNICNumber" placeholder="Driver ID" type="text">
+                                    <input class="form-control" id="txtdriverNICNumber" placeholder="Driver ID"
+                                           type="text">
                                 </div>
                                 <div class="mb-3">
                                     <label class="form-label" for="txtdriverName">Driver Name</label>
-                                    <input class="form-control" id="txtdriverName" placeholder="Driver Name" type="text">
+                                    <input class="form-control" id="txtdriverName" placeholder="Driver Name"
+                                           type="text">
                                 </div>
                                 <div class="mb-3">
                                     <label class="form-label" for="txtdriverNICImage">Driver Nic Image</label>
@@ -407,11 +391,13 @@
                                 </div>
                                 <div class="mb-3">
                                     <label class="form-label" for="txtdriverDrivingLyNumber">Lyson Number</label>
-                                    <input class="form-control" id="txtdriverDrivingLyNumber" placeholder="Lyson Number" type="text">
+                                    <input class="form-control" id="txtdriverDrivingLyNumber" placeholder="Lyson Number"
+                                           type="text">
                                 </div>
                                 <div class="mb-3">
                                     <label class="form-label" for="txtdriverContact">Driver Contact </label>
-                                    <input class="form-control" id="txtdriverContact" placeholder="Driver Contact" type="file">
+                                    <input class="form-control" id="txtdriverContact" placeholder="Driver Contact"
+                                           type="text">
                                 </div>
                                 <div class="mb-3">
                                     <label class="form-label" for="txtdriverEmail">Driver Email</label>
@@ -443,72 +429,16 @@
                                 <table class="table">
                                     <thead>
                                     <tr>
-                                        <th>Vehicle</th>
-                                        <th>VehicleNo:</th>
-                                        <th>Brand</th>
-                                        <th>DailyRate</th>
-                                        <th>MonthlyRate</th>
-                                        <th>vehicleType</th>
-                                        <th>ExtraKmPrice</th>
+                                        <th>Drive Nic</th>
+                                        <th>Name</th>
+                                        <th>Contact</th>
+                                        <th>Lyson Number</th>
+                                        <th>Email</th>
+                                        <th>Password</th>
                                     </tr>
                                     </thead>
                                     <tbody id="vehicleTBody">
-                                    <!--                                    <tr>-->
-                                    <!--                                        <td>-->
-                                    <!--                                            <img alt="iMac"-->
-                                    <!--                                                 src="https://bootadmin.org/images/icons/lulu/Desktop.png"-->
-                                    <!--                                                 style="width:50px">-->
-                                    <!--                                        </td>-->
-                                    <!--                                        <td>iMac</td>-->
-                                    <!--                                        <td>Russell</td>-->
-                                    <!--                                        <td>22/08/2018</td>-->
-                                    <!--                                        <td>-->
-                                    <!--                                            <span class="badge badge-success font-weight-100">Paid</span>-->
-                                    <!--                                        </td>-->
-                                    <!--                                        <td>#98BC85SD84</td>-->
-                                    <!--                                    </tr>-->
-                                    <!--                                    <tr>-->
-                                    <!--                                        <td>-->
-                                    <!--                                            <img alt="iPhone"-->
-                                    <!--                                                 src="https://bootadmin.org/images/icons/lulu/Mobile.png"-->
-                                    <!--                                                 style="width:50px">-->
-                                    <!--                                        </td>-->
-                                    <!--                                        <td>iPhone</td>-->
-                                    <!--                                        <td>Carol</td>-->
-                                    <!--                                        <td>15/07/2018</td>-->
-                                    <!--                                        <td>-->
-                                    <!--                                            <span class="badge badge-warning font-weight-100">Pending</span>-->
-                                    <!--                                        </td>-->
-                                    <!--                                        <td>#98SA3C9SC</td>-->
-                                    <!--                                    </tr>-->
-                                    <!--                                    <tr>-->
-                                    <!--                                        <td>-->
-                                    <!--                                            <img alt="apple_watch"-->
-                                    <!--                                                 src="https://bootadmin.org/images/icons/lulu/Clock.png"-->
-                                    <!--                                                 style="width:50px">-->
-                                    <!--                                        </td>-->
-                                    <!--                                        <td>Apple Watch</td>-->
-                                    <!--                                        <td>Austin Pena</td>-->
-                                    <!--                                        <td>10/07/2018</td>-->
-                                    <!--                                        <td>-->
-                                    <!--                                            <span class="badge badge-success font-weight-100">Paid</span>-->
-                                    <!--                                        </td>-->
-                                    <!--                                        <td>#98BC85SD84</td>-->
-                                    <!--                                    </tr>-->
-                                    <!--                                    <tr>-->
-                                    <!--                                        <td>-->
-                                    <!--                                            <img alt="mac_mouse"-->
-                                    <!--                                                 src="https://bootadmin.org/images/icons/lulu/Headphones.png"-->
-                                    <!--                                                 style="width:50px">-->
-                                    <!--                                        </td>-->
-                                    <!--                                        <td>Headphones</td>-->
-                                    <!--                                        <td>Randy</td>-->
-                                    <!--                                        <td>22/04/2018</td>-->
-                                    <!--                                        <td>-->
-                                    <!--                                            <span class="badge badge-default font-weight-100">Failed</span>-->
-                                    <!--                                        </td>-->
-                                    <!--                                        <td>#98SA3C9SC</td>-->
-                                    <!--                                    </tr>-->
+
                                     </tbody>
                                 </table>
                             </div>
@@ -543,124 +473,82 @@
 
 
 <script src="https://bootadmin.org/scripts/core/main.js"></script>
-
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <script>
 
-    // (function (i, s, o, g, r, a, m) {
-    //     i['GoogleAnalyticsObject'] = r;
-    //     i[r] = i[r] || function () {
-    //         (i[r].q = i[r].q || []).push(arguments)
-    //     }, i[r].l = 1 * new Date();
-    //     a = s.createElement(o),
-    //         m = s.getElementsByTagName(o)[0];
-    //     a.async = 1;
-    //     a.src = g;
-    //     m.parentNode.insertBefore(a, m)
-    // })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-    // ga('create', 'UA-104952515-1', 'auto');
-    // ga('send', 'pageview');
 
 
-    // $(document).ready(function () {
-    //
-    //     LoadData();
-    //     // $("#vehicleTBody").empty();
-    //     // $.ajax({
-    //     //     method: 'GET',
-    //     //     url: 'http://localhost:8080/Back_end_war_exploded/vehicle',
-    //     //     async: true,
-    //     //     success: function (response) {
-    //     //         console.log(response);//object
-    //     //         let array = response.data;
-    //     //         for (let i of array) {
-    //     //             let row = `<tr><td>${i.vehicleSubBrand}</td><td>${i.vehicleRegID}</td><td>${i.vehicleSubBrand}</td><td>${i.vehicleDailyRate}</td><td>${i.vehicleMonthlyRate}</td><td>${i.vehicleFreeMiles}</td><td>${i.vehicleExtraKmPrice}</td></tr>`;
-    //     //             $("#vehicleTBody").append(row);
-    //     //         }
-    //     //
-    //     //     }
-    //     // });
-    //
-    // });
-
-    function LoadData() {
+    $(document).ready(function () {
         $("#vehicleTBody").empty();
         $.ajax({
             method: 'GET',
-            url: 'http://localhost:8080/Back_end_war_exploded/vehicle',
+            url: 'http://localhost:8080/Back_end_war_exploded/driver/allDrivers',
             async: true,
             success: function (response) {
                 console.log(response);//object
                 let array = response.data;
                 for (let i of array) {
-                    let row = `<tr><td>${i.vehicleSubBrand}</td><td>${i.vehicleRegID}</td><td>${i.vehicleSubBrand}</td><td>${i.vehicleDailyRate}</td><td>${i.vehicleMonthlyRate}</td><td>${i.vehicleType}</td><td>${i.vehicleExtraKmPrice}</td></tr>`;
+                    let row = `<tr><td>${i.driverNICNumber}</td><td>${i.driverName}</td><td>${i.driverContact}</td><td>${i.driverDrivingLyNumber}</td><td>${i.driverEmail}</td><td>${i.driverPassword}</td></tr>`;
                     $("#vehicleTBody").append(row);
                 }
 
             }
         });
-    }
+    })
 
 
-    $("#btnSaveVehicle").click(function () {
+    $("#btnSaveVehicle").click(function (button) {
 
 
-        let vehicleRegID = $("#txtVehicleID").val();
-        let vehicleMainBrand = $('#txtVehicleBrand').val();
-        let vehicleSubBrand = $('#txtVehicleSubBrand').val();
-        let vehicleType = $('#txtvehicleType').val();
-        let vehicleFontImage = $('#txtVehicleFontImage').val()
-        let vehicleBackImage = $('#txtVehicleBackImage').val()
-
-        let vehicleDailyRate = $('#txtVehicleDailyRate').val();
-        let vehicleMonthlyRate = $('#txtVehicleMonthlyRate').val();
-        let vehicleExtraKmPrice = $('#txtvehicleExtraKmPrice').val();
-
-        let vehicleLostDamage = $('#txtVehicleLostDamage').val();
-        let vehicleFreeKMDay = $('#txtVehicleFreeKmForDay').val();
-        let vehicleFreeKMMONTH = $('#txtVehicleFreeKmForMonth').val()
+        let driverNICNumber = $("#txtdriverNICNumber").val();
+        let driverName = $('#txtdriverName').val();
+        let driverNICImage = $('#txtdriverNICImage').val();
+        let driverDrivingLyImage = $('#txtdriverDrivingLyImage').val();
+        let driverDrivingLyNumber = $('#txtdriverDrivingLyNumber').val()
+        let driverContact = $('#txtdriverContact').val()
+        let driverEmail = $('#txtdriverEmail').val();
+        let driverPassword = $('#txtdriverPassword').val();
 
 
         $.ajax({
             method: "POST",
-            url: "http://localhost:8080/Back_end_war_exploded/vehicle",
+            url: "http://localhost:8080/Back_end_war_exploded/driver",
             contentType: "application/json",
             async: true,
             data: JSON.stringify({
-                vehicleRegID: vehicleRegID,
-                vehicleMainBrand: vehicleMainBrand,
-                vehicleSubBrand: vehicleSubBrand,
-                vehicleType: vehicleType,
-                vehicleFontImage: vehicleFontImage,
-                vehicleBackImage: vehicleBackImage,
-                vehicleDailyRate: vehicleDailyRate,
-                vehicleMonthlyRate: vehicleMonthlyRate,
-                vehicleExtraKmPrice: vehicleExtraKmPrice,
-                vehicleStatus: "Free",
-                vehicleLostDamage: vehicleLostDamage,
-                vehicleFreeKMDay: vehicleFreeKMDay,
-                vehicleFreeKMMONTH: vehicleFreeKMMONTH
+                driverNICNumber: driverNICNumber,
+                driverName: driverName,
+                driverNICImage: driverNICImage,
+                driverDrivingLyImage: driverDrivingLyImage,
+                driverDrivingLyNumber: driverDrivingLyNumber,
+                driverContact: driverContact,
+                driverEmail: driverEmail,
+                driverPassword: driverPassword
             }),
             success: function (date) {
-                console.log("" + date)
+                if (date.message == 'Done') {
+                    swal("Registration Success !", "You have a driver!", "success");
+                } else {
+                    swal("Registration Fail !", "You have a driver!", "warning");
+                }
+
             }
         })
 
 
-        addData();
-
     })
 
+    //
+    // $('#vehicleTBody').click(function () {
+    //     //Load Table Data To Text Field C - Click Twice On Table
+    //     addData();
+    // })
 
-    $('#vehicleTBody').click(function () {
-        //Load Table Data To Text Field C - Click Twice On Table
-        addData();
-    })
 
-
-    $(document).ready(function () {
-        LoadData();
-        addData();
-    })
+    // $(document).ready(function () {
+    //     LoadData();
+    //     addData();
+    // })
 
 
     function addData() {
@@ -691,7 +579,7 @@
 
 
 </script>
-
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <!--    <script rel="script" src="asserts/js/jquery-3.6.0.min.js"></script>-->
 </body>
 </html>

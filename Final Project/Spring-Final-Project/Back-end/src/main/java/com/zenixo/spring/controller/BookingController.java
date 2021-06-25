@@ -94,5 +94,11 @@ public class BookingController {
         return new ResponseEntity(new StandardResponse("200", "Done", bookingDTO), HttpStatus.OK);
     }
 
+    @GetMapping(path = "/lastID/rentID")
+    public ResponseEntity getLastRid() {
+        String lastRid = bookingService.getLastRid();
+        return new ResponseEntity(new StandardResponse("200", "Done", lastRid), HttpStatus.CREATED);
+    }
+
 
 }

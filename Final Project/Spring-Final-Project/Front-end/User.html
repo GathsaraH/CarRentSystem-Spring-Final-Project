@@ -1,22 +1,3 @@
-<!--<!doctype html>-->
-<!--<html lang="en">-->
-<!--<head>-->
-<!--    <meta charset="UTF-8">-->
-<!--    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"-->
-<!--          name="viewport">-->
-<!--    <meta content="ie=edge" http-equiv="X-UA-Compatible">-->
-<!--    <link href="Admin.css" rel="stylesheet">-->
-<!--    <link href="asserts/css/bootstrap-grid.min.css" rel="stylesheet">-->
-<!--    <title>Admin Panel</title>-->
-<!--</head>-->
-<!--<body>-->
-
-
-<!--<script rel="script" src="asserts/js/bootstrap.min.js"></script>-->
-<!--<script rel="script" src="asserts/js/jquery-3.6.0.min.js"></script>-->
-<!--<script rel="script" src="Admin.js"></script>-->
-<!--</body>-->
-<!--</html>-->
 
 
 <!DOCTYPE html>
@@ -232,24 +213,6 @@
                         </ul>
                     </div>
                 </li>
-                <!--                <li class="nav-item">-->
-                <!--                    <a aria-controls="page-elements" aria-expanded="false" class="nav-link wave-effect collapsed"-->
-                <!--                       data-parent="#sidebarCookie" data-toggle="collapse" href="#navElements">-->
-                <!--                        <i class="feather icon-layout"></i>-->
-                <!--                        <span class="menu-title">Drivers Status</span>-->
-                <!--                        <i class="feather icon-chevron-down down-arrow"></i>-->
-                <!--                    </a>-->
-                <!--                    <div class="collapse" id="navElements">-->
-                <!--                        <ul class="flex-column sub-menu">-->
-                <!--                            <li class="nav-item">-->
-                <!--&lt;!&ndash;                                <a class="nav-link wave-effect" href="">&ndash;&gt;-->
-                <!--&lt;!&ndash;                                    <i class="feather icon-bold"></i>&ndash;&gt;-->
-                <!--&lt;!&ndash;                                    <span class="menu-title">Status</span>&ndash;&gt;-->
-                <!--&lt;!&ndash;                                </a>&ndash;&gt;-->
-                <!--                            </li>-->
-                <!--                        </ul>-->
-                <!--                    </div>-->
-                <!--                </li>-->
 
                 <li class="nav-item">
                     <a aria-controls="page-mailbox" aria-expanded="false" class="nav-link wave-effect collapsed"
@@ -281,52 +244,7 @@
                         </ul>
                     </div>
                 </li>
-                <!--                <li class="nav-item">-->
-                <!--                    <a class="nav-link wave-effect nav-single" href="">-->
-                <!--                        <i class="feather icon-calendar"></i>-->
-                <!--                        <span class="menu-title">Calendar</span>-->
-                <!--                    </a>-->
-                <!--                </li>-->
-                <!--                <li class="nav-item">-->
-                <!--                    <a aria-controls="page-profilebox" aria-expanded="false" class="nav-link wave-effect collapsed"-->
-                <!--                       data-parent="#sidebarCookie" data-toggle="collapse" href="#navProfilebox">-->
-                <!--                        <i class="feather icon-users"></i>-->
-                <!--                        <span class="menu-title">Account</span>-->
-                <!--                        <i class="feather icon-chevron-down down-arrow"></i>-->
-                <!--                    </a>-->
-                <!--                    <div class="collapse" id="navProfilebox">-->
-                <!--                        <ul class="flex-column sub-menu">-->
-                <!--                            <li class="nav-item">-->
-                <!--                                <a class="nav-link wave-effect" href="">-->
-                <!--                                    <i class="feather icon-user"></i>-->
-                <!--                                    <span class="menu-title">Profile</span>-->
-                <!--                                </a>-->
-                <!--                            </li>-->
-                <!--                            <li class="nav-item">-->
-                <!--                                <a class="nav-link wave-effect" href="">-->
-                <!--                                    <i class="feather icon-dollar-sign"></i>-->
-                <!--                                    <span class="menu-title">Billing</span>-->
-                <!--                                </a>-->
-                <!--                            </li>-->
-                <!--                            <li class="nav-item">-->
-                <!--                                <a class="nav-link wave-effect" href="">-->
-                <!--                                    <i class="feather icon-settings"></i>-->
-                <!--                                    <span class="menu-title">Settings</span>-->
-                <!--                                </a>-->
-                <!--                            </li>-->
-                <!--                        </ul>-->
-                <!--                    </div>-->
-                <!--                </li>-->
-                <!--                <li class="title">-->
-                <!--                    <i class="feather icon-more-horizontal"></i>-->
-                <!--                    <span class="menu-title">Misc</span>-->
-                <!--                </li>-->
-                <!--                <li class="nav-item">-->
-                <!--                    <a class="nav-link wave-effect nav-single" href="">-->
-                <!--                        <i class="feather icon-zap"></i>-->
-                <!--                        <span class="menu-title">Credits</span>-->
-                <!--                    </a>-->
-                <!--                </li>-->
+
             </ul>
         </div>
 
@@ -412,7 +330,7 @@
 
                                 <div class="mb-3">
                                     <label class="form-label" for="txtBookingID">Booking ID</label>
-                                    <input class="form-control" id="txtBookingID" placeholder="Booking ID" type="text">
+                                    <input class="form-control" id="txtBookingID" placeholder="Booking ID" type="text" disabled>
                                 </div>
                                 <div class="mb-3">
                                     <label class="form-label" for="txtCustomerID">Customer ID</label>
@@ -436,7 +354,7 @@
                                 <div class="mb-3p">
                                     <input class="form-label" id="txtDriverIDCheck" name="txtDriverIDCheck"
                                            type="checkbox" value="txtDriverIDCheck">
-                                    <label class="form-label" for="txtDriverID" name="txtDriverIDCheck">Driver
+                                    <label class="form-label" for="txtDriverID" id="lablRandom" name="txtDriverIDCheck">Driver
                                         ID</label>
                                     <input class="form-control" disabled id="txtDriverID" type="text">
                                 </div>
@@ -455,7 +373,8 @@
                                     <input class="form-control" id="txtloosDamegeImage" type="text">
                                 </div>
 
-                                <button class="btn btn-success add-cart" id="btnAddCart" type="button">Add To Cart
+                                <button class="btn btn-success add-cart" id="btnAddCart" onclick=""
+                                        type="button">Add To Cart
                                 </button>
 
                                 <button class="btn btn-primary add-cart" id="btnPlaceBooking" type="button">Place Your
@@ -553,7 +472,7 @@
 
 
 <script src="https://bootadmin.org/scripts/core/main.js"></script>
-
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <script>
 
 
@@ -567,7 +486,7 @@
                 console.log(response);//object
                 let array = response.data;
                 for (let i of array) {
-                    let row = `<tr><td>${i.vehicleSubBrand}</td><td>${i.vehicleSubBrand}</td><td>${i.vehicleRegID}</td><td>${i.vehicleDailyRate}</td><td>${i.vehicleMonthlyRate}</td><td>${i.vehicleExtraKmPrice}</td><td>${i.vehicleLostDamage}</td></tr>`;
+                    let row = `<tr><td><img class="img" src="asserts/img/2019-hyundai-kona-1548195339.jpg" style="width: 50px;.img:hover{ -ms-transform: scale(1.5);-webkit-transform: scale(1.5); transform: scale(1.5); }"></td><td>${i.vehicleSubBrand}</td><td>${i.vehicleRegID}</td><td>${i.vehicleDailyRate}</td><td>${i.vehicleMonthlyRate}</td><td>${i.vehicleExtraKmPrice}</td><td>${i.vehicleLostDamage}</td></tr>`;
                     $("#vehicleTBody").append(row);
                 }
 
@@ -576,6 +495,10 @@
 
     });
 
+    // function clearText() {
+    //     $('#txtDriverID').val("");
+    // }
+
 
     $(document).ready(function () {
 
@@ -583,9 +506,7 @@
 
     })
 
-
-    $('#txtDriverIDCheck').change(function () {
-
+    $('#txtDriverIDCheck').bind('click', function (e) {
         $.ajax({
             method: 'GET',
             url: "http://localhost:8080/Back_end_war_exploded/driver",
@@ -598,6 +519,47 @@
                 }
             }
         })
+    });
+
+
+    $('#lablRandom').bind('dblclick', function (e) {
+
+        $.ajax({
+            method: 'GET',
+            url: "http://localhost:8080/Back_end_war_exploded/driver",
+            async: true,
+            success: function (response) {
+                // let array = response.data;
+                // console.log(response)
+                // for (let i of array) {
+                //     $('#txtDriverID').val(i.driverNICNumber)
+                // }
+
+                // let array = response.data;
+                // for (let i of array) {
+                //     if (i.driverStatus == "NOT ASSIGN" && i.driverName == "Malindu") {
+                //         $('#txtDriverID').val(i.driverNICNumber)
+                //     }
+                // }
+                let firstDriver;
+
+                for (let i = 0; i < response.data.length; i++) {
+                    console.log(response)
+                    if (response.data[i].driverStatus == "NOT ASSIGN" && response.data[i].driverName == "Malindu") {
+
+                        firstDriver = response.data[i].driverNICNumber;
+                        console.log(firstDriver)
+
+                    } else {
+                        console.log("Now Avileble")
+
+                    }
+                }
+                $('#txtDriverID').val(firstDriver)
+
+            }
+        })
+        console.log("Test");
     })
 
 
@@ -619,6 +581,9 @@
             })
         }
     })
+
+
+
 
     // let Vehicle = new VehicleDTO(bookingID, vehicleRegID, custName, lossDamage, lossDamageImage, rentData, returnData);
     //
@@ -726,7 +691,11 @@
                         }),
                         success: function (date) {
                             console.log(date)
-
+                            if (date.message == 'Done') {
+                                swal("Your Request Success !", "Please Wait For Approval ! Check Your Message Box After 10 Minutes !", "success");
+                            } else {
+                                swal("Your Request Success Fail !", " Check Your Message Box !", "warning");
+                            }
                         }
                     })
                 }
@@ -775,7 +744,7 @@
         $('#tblAddCard').on('dblclick', function () {
             $(this).remove();
         })
-        myCart();
+
 
     })
 
@@ -858,9 +827,37 @@
 
     }
 
+    /*Genarate Auto Rent ID */
+    function genarateRentID() {
+        $.ajax({
+            method: 'get',
+            url: "http://localhost:8080/Back_end_war_exploded/booking/lastID/rentID",
+            contentType: "application/json",
+            async: true,
+            success: function (res) {
+                console.log(res.data)
+                try {
+                    let lastOID = res.data;
+                    let newOID = parseInt(lastOID.substring(1, 4)) + 1;
+                    if (newOID < 10) {
+                        $('#txtBookingID').val("B00" + newOID);
+                    } else if (newOID < 100) {
+                        $('#txtBookingID').val("B0" + newOID);
+                    } else {
+                        $('#txtBookingID').val("B" + newOID);
+                    }
+                } catch (e) {
+                    $('#txtBookingID').val("B001");
+                }
+            }
+        })
+    }
+    genarateRentID();
+
 
 </script>
 <script rel="script" src="model/Vehicle.js"></script>
 <script rel="script" src="db/db.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </body>
 </html>
