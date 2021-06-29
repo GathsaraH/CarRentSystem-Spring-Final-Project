@@ -9,7 +9,8 @@ import java.util.ArrayList;
 
 public interface BookingRepo extends JpaRepository<Booking, String> {
 
-    @Query(value = "select b.bookingID,b.bookingStatus,b.rentDate,b.returnDate,b.custNICNumber,b.rentStatus,rd.driverNICNumber,rd.vehicleRegID from  booking b,bookingdetails rd where (b.bookingID=rd.bookingID) and b.bookingStatus='Not Approved';", nativeQuery = true)
+            @Query(value = "select b.bookingID,b.bookingStatus,b.rentDate,b.returnDate,b.custNICNumber,b.rentStatus,rd.driverNICNumber,rd.vehicleRegID from  booking b,bookingdetails rd where (b.bookingID=rd.bookingID) and b.bookingStatus='Not Approved';", nativeQuery = true)
+//    @Query(value = "SELECT b.bookingID, b.rentDate, b.returnDate, b.custNICNumber.custNICNumber,b.bookingStatus, bd.driverNICNumber.driverNICNumber, bd.vehicleRegID.vehicleRegID FROM Booking b INNER JOIN b.bookingDetails bd  WHERE b.bookingStatus='Not Approved'")
     ArrayList<Booking> getPendingRent();
 
 //    @Query(value = "select b.bookingID,b.rentDate,b.returnDate,b.custNICNumber,b.bookingStatus,rd.lossDamage,rd.driverNICNumber,rd.vehicleRegID from Booking b,BookingDetails rd where (b.bookingID=rd.bookingID) and b.bookingStatus='Rejected' && rd.vehicleRegID=?1", nativeQuery = true)

@@ -1,6 +1,3 @@
-
-
-
 <!DOCTYPE html>
 <!--[if lt IE 7 ]>
 <html class="ie ie6" lang="en"> <![endif]-->
@@ -21,7 +18,6 @@
 
     </title>
     <meta content="width=device-width, initial-scale=1, user-scalable=no" name="viewport">
-
 
 
     <!-- Le CSS
@@ -302,7 +298,7 @@
                             <div class="card-body">
                                 <div class="d-flex">
                                     <div class="mr-4">
-                                        <small>This  Month Earning</small>
+                                        <small>This Month Earning</small>
                                         <h4 class="mb-0">3,567.53</h4>
                                     </div>
                                     <div class="chart ml-auto">
@@ -454,6 +450,26 @@
     })
 
 
+    function Reload() {
+        $(document).ready(function () {
+            $.ajax({
+                method: 'GET',
+                url: 'http://localhost:8080/Back_end_war_exploded/booking',
+                async: true,
+                success: function (response) {
+                    console.log(response)
+                    let myArray = response.data;
+                    for (let i of myArray) {
+                        let row = `<tr><td>${i.bookingID}</td><td>${i.custNICNumber.custNICNumber}</td><td>${i.rentDate}</td><td>${i.returnDate}</td><td>${i.bookingStatus}</td><td><button  class="btn btn-success fff" id="${i.bookingID}"   onclick="updateDetailsCar(this)">Accept</button></td><td><button  class="btn btn-danger fff" id="btnApprow" onclick="rejectBooking(this)">Reject</button></td></tr>`;
+                        $("#pendingTable").append(row);
+                    }
+                }
+            })
+        })
+
+    }
+
+
     $('#btnReject').click(function () {
         // $('#RejectcustNICNumber').on('keyup', function (button) {
         //     if (button.key == "Enter") {
@@ -484,6 +500,7 @@
                             console.log(response)
                             if (date.message == 'Done') {
                                 swal("Rejection Success !", "You have a driver!", "success");
+                                Reload()
                             } else {
                                 swal("Rejection Fail !", "You have a driver!", "warning");
                             }
@@ -514,8 +531,8 @@
                             "vehicleRegID": {
                                 "vehicleRegID": value.vehicleRegID.vehicleRegID
                             },
-                            "driverNICNumber":{
-                                "driverNICNumber":value.driverNICNumber.driverNICNumber
+                            "driverNICNumber": {
+                                "driverNICNumber": value.driverNICNumber.driverNICNumber
                             }
                         })
 
@@ -530,11 +547,12 @@
                         async: true,
                         data: JSON.stringify({
                             bookingID: response.data.bookingID,
-                            bookingStatus:response.data.bookingStatus,
+                            bookingStatus: response.data.bookingStatus,
                             bookingDetails: myDate
                         }),
                         success: function (response) {
                             console.log(response)
+                            Reload();
                         }
                     })
 
@@ -597,6 +615,7 @@
                     }),
                     success: function (date) {
                         console.log(date)
+                        Reload()
                     }
                 })
 

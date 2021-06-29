@@ -62,13 +62,16 @@
         console.log(optionDriver)
         let role;
 
-        if (role === optionCustomer || role === optionDriver) {
-            alert("Customer")
+
+        if (optionCustomer == 'Customers') {
+            swal("Login Success !", "You have a Wonderfull Ride!", "success");
+            window.location.href = "User.html";
         }else {
-            alert("Driver")
+            alert("No")
         }
 
-            // let custEmail = $('#txtCustomerEmail').val()
+
+        // let custEmail = $('#txtCustomerEmail').val()
         // let custPass = $('#txtCustomerPassowrd').val()
         //
         // $.ajax({

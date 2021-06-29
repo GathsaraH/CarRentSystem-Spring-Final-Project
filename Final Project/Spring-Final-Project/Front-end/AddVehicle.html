@@ -631,7 +631,7 @@
                 console.log(response);//object
                 let array = response.data;
                 for (let i of array) {
-                    let row = `<tr><td>${i.vehicleSubBrand}</td><td>${i.vehicleRegID}</td><td>${i.vehicleSubBrand}</td><td>${i.vehicleDailyRate}</td><td>${i.vehicleMonthlyRate}</td><td>${i.vehicleType}</td><td>${i.vehicleExtraKmPrice}</td></tr>`;
+                    let row = `<tr><td><img class="img" src="asserts/img/2019-hyundai-kona-1548195339.jpg" style="width: 50px;.img:hover{ -ms-transform: scale(1.5);-webkit-transform: scale(1.5); transform: scale(1.5); }"></td><td>${i.vehicleRegID}</td><td>${i.vehicleSubBrand}</td><td>${i.vehicleDailyRate}</td><td>${i.vehicleMonthlyRate}</td><td>${i.vehicleType}</td><td>${i.vehicleExtraKmPrice}</td></tr>`;
                     $("#vehicleTBody").append(row);
                 }
 
@@ -682,6 +682,7 @@
             success: function (date) {
                 if (date.message == 'Done') {
                     swal("Registration Success !", "You have a driver!", "success");
+                    LoadData();
                 } else {
                     swal("Registration Fail !", "You have a driver!", "warning");
                 }

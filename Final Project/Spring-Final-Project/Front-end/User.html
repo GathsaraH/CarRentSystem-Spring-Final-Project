@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <!--[if lt IE 7 ]>
 <html class="ie ie6" lang="en"> <![endif]-->
@@ -330,7 +328,8 @@
 
                                 <div class="mb-3">
                                     <label class="form-label" for="txtBookingID">Booking ID</label>
-                                    <input class="form-control" id="txtBookingID" placeholder="Booking ID" type="text" disabled>
+                                    <input class="form-control" disabled id="txtBookingID" placeholder="Booking ID"
+                                           type="text">
                                 </div>
                                 <div class="mb-3">
                                     <label class="form-label" for="txtCustomerID">Customer ID</label>
@@ -495,9 +494,31 @@
 
     });
 
+    function ReaalodBookibVehicle() {
+        $(document).ready(function () {
+            $("#vehicleTBody").empty();
+            $.ajax({
+                method: 'GET',
+                url: 'http://localhost:8080/Back_end_war_exploded/vehicle',
+                async: true,
+                success: function (response) {
+                    console.log(response);//object
+                    let array = response.data;
+                    for (let i of array) {
+                        let row = `<tr><td><img class="img" src="asserts/img/2019-hyundai-kona-1548195339.jpg" style="width: 50px;.img:hover{ -ms-transform: scale(1.5);-webkit-transform: scale(1.5); transform: scale(1.5); }"></td><td>${i.vehicleSubBrand}</td><td>${i.vehicleRegID}</td><td>${i.vehicleDailyRate}</td><td>${i.vehicleMonthlyRate}</td><td>${i.vehicleExtraKmPrice}</td><td>${i.vehicleLostDamage}</td></tr>`;
+                        $("#vehicleTBody").append(row);
+                    }
+
+                }
+            });
+
+        });
+    }
+
     // function clearText() {
     //     $('#txtDriverID').val("");
     // }
+
 
 
     $(document).ready(function () {
@@ -581,8 +602,6 @@
             })
         }
     })
-
-
 
 
     // let Vehicle = new VehicleDTO(bookingID, vehicleRegID, custName, lossDamage, lossDamageImage, rentData, returnData);
@@ -693,6 +712,7 @@
                             console.log(date)
                             if (date.message == 'Done') {
                                 swal("Your Request Success !", "Please Wait For Approval ! Check Your Message Box After 10 Minutes !", "success");
+                                ReaalodBookibVehicle();
                             } else {
                                 swal("Your Request Success Fail !", " Check Your Message Box !", "warning");
                             }
@@ -852,6 +872,7 @@
             }
         })
     }
+
     genarateRentID();
 
 

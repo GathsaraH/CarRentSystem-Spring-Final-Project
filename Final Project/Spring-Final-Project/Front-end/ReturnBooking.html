@@ -1,6 +1,3 @@
-
-
-
 <!DOCTYPE html>
 <!--[if lt IE 7 ]>
 <html class="ie ie6" lang="en"> <![endif]-->
@@ -361,7 +358,7 @@
 
 
                                     <div class="mb-3" style="display: none">
-                                        <label class="form-label"  for="ReturnbookingID">Booking ID</label>
+                                        <label class="form-label" for="ReturnbookingID">Booking ID</label>
                                         <input class="form-control" id="ReturnbookingID" type="email">
                                     </div>
 
@@ -501,6 +498,27 @@
         }
     })
 
+    function ReLoadReturn() {
+        $('#txtReturnVehicleLD').on('keyup', function (button) {
+            if (button.key = "Enter") {
+                let id = $('#txtReturnVehicleLD').val()
+                $.ajax({
+                    method: 'GET',
+                    url: 'http://localhost:8080/Back_end_war_exploded/vehicle/' + id,
+                    async: true,
+                    success: function (response) {
+                        console.log(response)
+                        let i = response.data
+                        let row = `<tr><td>${i.vehicleRegID}</td><td>${i.vehicleMainBrand}</td><td>${i.vehicleDailyRate}</td><td>${i.vehicleMonthlyRate}</td><td>${i.vehicleFreeKMDay}</td><td>${i.vehicleFreeKMMONTH}</td><td>${i.vehicleExtraKmPrice}</td></tr>`;
+                        $("#tableCheckVehicle").append(row);
+
+                    }
+                })
+            }
+        })
+
+    }
+
     function calculatePrice() {
         let dailyRate = $('#dailyRentR').val()
         let monthlyDate = $('#monthlyRentR').val()
@@ -571,6 +589,12 @@
             }),
             success: function (response) {
                 console.log(response)
+                if (response.message == 'Done') {
+                    swal("Return Success !", "You have a Nice Day!", "success");
+                    ReLoadReturn()
+                } else {
+                    swal("Registration Fail !", "You have a driver!", "warning");
+                }
             }
         })
     })
